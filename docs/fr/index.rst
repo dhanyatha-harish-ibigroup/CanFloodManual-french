@@ -1,9 +1,9 @@
-Documentation pour CanFlood
+Documentation for CanFlood 
 --------------------------------
 
-Veuillez consulter les documents ci-dessous.
+Please have a look into the documents below.
 
-.. toctree ::
- :profondeur max: 2
+.. toctree::
+   :maxdepth: 2
 
- Table des matières <table_of_contents/index>
+   Table of Contents <table_of_contents/index>
