@@ -38,7 +38,7 @@ D’ici la fin de cette section, on résume certains types d'analyse typiques ou
 .. _Section3.1:
 
 ****************************************
-3,1. Évaluation basée sur l'exposition au risque (L1)
+3.1. Évaluation basée sur l'exposition au risque (L1)
 ****************************************
 
 Les évaluations basées sur l'exposition (L1) quantifient la probabilité d'exposition binaire des biens aux inondations (mouillés ou secs). Ces données peuvent être utiles afin de procéder aux évaluations initiales, lorsque les ressources et les données sont limitées, pour identifier les zones devant faire l'objet d’une étude plus poussée. Dans le système CanFlood , cette opération s’effectue en recueillant les données, en élaborant un modèle de risque (L1), en exécutant le modèle et en évaluant les résultats. Contrairement aux évaluations axées sur la vulnérabilité (L2, Section3.2_), les évaluations axées sur l'exposition (L1) ne tiennent pas compte de l’influence de la profondeur d'inondation sur le risque. Autrement dit, une maison qui comporte un étang dans sa cour seraient considérée au même titre qu’une maison complètement engloutie par l’eau. Cependant, les évaluations basées sur l'exposition (L1) peuvent être utilisées pour estimer les paramètres de risque additionnels en utilisant les paramètres de mise à l'échelle de CanFlood  (par exemple, en estimant une perte de cultures en multipliant la zone inondée par une constante de perte/zone). Les évaluations basées sur l'exposition (L1) peuvent comporter une évaluation de la faille de défense si des données de probabilité d'exposition sont disponibles (Section3.3_). La Figure3-1_ et la Figure3-2_ présentent un flux des travaux sommaire d’un risque typique (L1). Pour en apprendre davantage sur le modèle de risque (L1), voir la :ref:`Section5.2.1 <Section5.2.1>`.
@@ -52,7 +52,7 @@ Les évaluations basées sur l'exposition (L1) quantifient la probabilité d'exp
 .. _Section3.2:
 
 *********************************************
-3,2. Évaluation axée sur la vulnérabilité su risque (L2)
+3.2. Évaluation axée sur la vulnérabilité su risque (L2)
 *********************************************
 
 Les évaluations axées sur la vulnérabilité (L2) quantifient le risque d’impact de certaines inondations sur les biens, lorsqu’il est possible de lier l’impact à la profondeur. Les modèles de risque qui tiennent compte de la vulnérabilité en fonction de la profondeur de l'inondation sont fréquemment utilisés pour évaluer le risque d'inondation pour les édifices, le contenu des édifices et les infrastructures. Dans CanFlood , une telle évaluation s’effectue en recueillant des données, en créant ou en recueillant des fonctions de vulnérabilité, en créant un modèle de risque (L2) , en exécutant ce modèle et en évaluant ensuite les résultats. L’élément de ce processus qui représente souvent le principal défi consister à colliger des fonctions de construction ou de vulnérabilité (:ref:`Section4.3 <Section4.3>`) que les version futures de CanFlood  peuvent prendre en charge : Les évaluations axées sur la vulnérabilité (L2) comportent généralement une évaluation de la faille de défense (Section3.3_). La Figure3-1_ et la Figure3-3_ présentent un flux des travaux sommaire d’un risque typique (L2). Pour de plus amples renseignements sur le modèle de risque (L2), voir :ref:`Section5.2.3 <Section5.2.3>`.
@@ -86,7 +86,7 @@ La défaillance des défenses est intégrée aux calculs de risque lors des flux
 
   4) Exécuter le modèle de risque (L1) ou de risque (L2) pour employer les algorithmes de CanFlood dans le but de calculer les valeurs attendues avec une défaillance des défenses (:ref:`Section5.2.3 <Section5.2.3>` *Events with Failure*).
 
-La figure 3-4 présente un résumé de l’algorithme complet des valeurs attendues de CanFlood .
+La Figure3-4_ présente un résumé de l’algorithme complet des valeurs attendues de CanFlood .
 
 .. _figure3-4:
 
