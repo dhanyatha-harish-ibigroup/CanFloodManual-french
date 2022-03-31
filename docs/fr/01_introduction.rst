@@ -106,22 +106,34 @@ Les objectifs et les applications de l'analyse du risque d'inondation sont aussi
 
 *Tableau 1-1 - Résumés du niveau des modèles CanFlood*
 
++------------------------+--------------------------------------+---------------------------------+----------------------------+
+| Niveau d'analyse       | L1 : Initial                         |L2 : Intermédiaire               | L3 : Détaillé              |
++========================+======================================+=================================+============================+
+| Motivation :sup:`1`    | ÉRI rapide, évaluations de type      | Des évaluations plus détaillées | Étude détaillée des pertes |
+|                        | bureau: premières approximations     | lorsqu’une  évaluation plus     | possibles et quantification|
+|                        | dans le but d’identifier les         | poussée de la perte de potentiel| robuste de l’incertitude   |
+|                        | domaines où un travail plus détaillé | est justifiée.                  |                            |
+|                        | est nécessaire.                      |                                 |                            |
++------------------------+--------------------------------------+---------------------------------+----------------------------+
+| Flux des travaux       | :ref:`Section3.1 <Section3.1>`       | :ref:`Section3.2 <Section3.2>`  | Annexe B                   |
++------------------------+--------------------------------------+---------------------------------+----------------------------+
+
 .. list-table::
     :header-rows: 1
     :stub-columns: 1
 
-    * - Niveau d'analyse 
-      - L1 : Initial
-      - L2 : Intermédiaire 
-      - L3 : Détaillé 
-    * - Motivation :sup:`1`
-      - ÉRI rapide, évaluations de type bureau: premières approximations dans le but d’identifier les domaines où un travail plus détaillé est nécessaire.
-      - Des évaluations plus détaillées lorsqu’une évaluation plus poussée de la perte de potentiel est justifiée.
-      - Étude détaillée des pertes possibles et quantification robuste de l’incertitude
-    * - Flux des travaux 
-      - :ref:`Section3.1 <Section3.1>`
-      - :ref:`Section3.2 <Section3.2>`
-      - Annexe B
+    * -  
+      - 
+      -  
+      -  
+    * - 
+      -   
+      -   
+      -   
+    * -  
+      - 
+      - 
+      - 
     * - Noms des outils du modèle CanFlood
       - Risque (L1)
       - Impacts (L2) et Risque (L2)
