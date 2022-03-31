@@ -4,7 +4,7 @@
 3. Applications et flux des travaux
 =============================
 
-Le plugin de CanFlood  renferme une collection d'outils conçus pour aider les modélisateurs du risque d'inondation à réaliser différentes tâches fréquentes. Pour ce faire, CanFlood  est flexible, alors qu’il permet aux utilisateurs de relier ensemble les outils et les séquences dont ils ont besoin pour réaliser la tâche en cours. Une évaluation du risque d'inondation au moyen de CanFlood  demande de l'expertise dans le domaine de la modélisation du risque d'inondation, la connaissance de procédures, comme celles auxquelles on fait référence dans la :ref:`Section1.1.2 <Section1.1.2> sans compter qu’elle fait généralement appel aux étapes suivantes :
+Le plugin de CanFlood  renferme une collection d'outils conçus pour aider les modélisateurs du risque d'inondation à réaliser différentes tâches fréquentes. Pour ce faire, CanFlood  est flexible, alors qu’il permet aux utilisateurs de relier ensemble les outils et les séquences dont ils ont besoin pour réaliser la tâche en cours. Une évaluation du risque d'inondation au moyen de CanFlood  demande de l'expertise dans le domaine de la modélisation du risque d'inondation, la connaissance de procédures, comme celles auxquelles on fait référence dans la :ref:`Section1.1.2 <Section1.1.2>` sans compter qu’elle fait généralement appel aux étapes suivantes :
 
   1. Identification des objectifs, de la portée et du but de l'évaluation.
   2. Sélection du niveau de modèle CanFlood approprié ((:ref:`Section1.3 <Section1.3>`) suivie de l'identification des données d’entrée nécessaires.
