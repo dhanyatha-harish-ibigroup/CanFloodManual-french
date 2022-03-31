@@ -1,9 +1,19 @@
-Documentation for CanFlood 
---------------------------------
+Documentation pour le manuel de l'utilisateur de CanFlood
+--------------------------------------
 
-Please have a look into the documents below.
+Table des matières
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   Table of Contents <table_of_contents/index>
+   00a_notes_et_remerciements
+   00b_glossaire
+   01_introduction
+   02_installation
+   03_applications_et_flux des travaux
+   04_intrants_et_données_nécessaires
+   05_trousses_d’outils
+   06_didacticiels
+   07a_références
+   07b_annexe_a
+   07c_annexe_b
