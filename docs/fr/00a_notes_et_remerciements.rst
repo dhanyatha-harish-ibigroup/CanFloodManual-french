@@ -25,7 +25,7 @@ RNCan accorde à l'utilisation le droit d’installer le logiciel et d’utilise
 
   RNCan assume seul la responsabilité du contenu du logiciel. L’utilisateur assume seul la responsabilité en ce qui concerne le contenu, les interactions et les effets de toute modification, le cas échéant, touchant les modules d’extension, les ensembles de ressources linguistiques, les scripts ou toute autre modification.
 
-  Il est interdit d’utiliser le nom " CanFlood " pour endosser ou promouvoir des produits qui sont issus du logiciel. Les produits issus du logiciel ne peuvent porter le nom "CanFlood" et aucune partie du nom "CanFlood" ne doit apparaître dans le nom des produits dérivés.
+  Il est interdit d’utiliser le nom 'CanFlood' pour endosser ou promouvoir des produits qui sont issus du logiciel. Les produits issus du logiciel ne peuvent porter le nom "CanFlood" et aucune partie du nom "CanFlood" ne doit apparaître dans le nom des produits dérivés.
 
   Aucune partie de ces conditions d'utilisation ne peut être modifiée, supprimée, oblitérée du logiciel.
 
