@@ -16,7 +16,7 @@ Chacun de ces ensembles comporte une série d'outils pour aider le modélisateur
 
 Les modèles de risque d'inondation de CanFlood sont axés sur des objets, alors que les conséquences d’une exposition à une inondation sont calculés pour chaque bien (comme une maison) au moyen d’une fonction de vulnérabilité unidimensionnelle fournie par l'utilisateur (comme la fonction de dommage en profondeur) avant d’additionner les conséquences sur chaque bien et d’intégrer une série d’événements dans le but de connaître le risque total d'inondation dans une région. Pour répondre à la diversité des besoins en matière d'évaluation du risque d'inondation et en fonction des données disponibles au Canada, CanFlood appuie trois cadres de modélisation de plus en plus complexes, les exigences en matière de données et l'effort (Section1.1_). Chacun de ces cadres a été conçu de manière à ce qu’il soit flexible et agnostique, permettant ainsi aux modélisateur de mettre en place un outil logiciel unique et une structure de données tout en entretenant les modèles de risque d'inondation qui tiennent compte de l’hétérogénéité des biens et des valeurs des Canadiens. Reconnaissant le sens des infrastructures de protection contre les inondations sur le risque d'inondation au sein de plusieurs communautés canadiennes, les modèles de CanFlood  peuvent intégrer le potentiel de défaillance aux calculs de risque. Pour utiliser la collection croissante d'ensemble de données de modélisation des dangers au Canada, CanFlood  aide les utilisateurs à accéder et à manipuler ces données dans les modèles de risque d'inondation.
 
-Le plugin de CanFlood n’est PAS un modèle de risque d'inondation. Il s’agit plutôt d’une plate-forme de modélisation comportant un éventail d’outils pour aider les utilisateurs à créer, à exécuter et à analyser leurs propres modèles. CanFlood  exige des utilisateurs qu’ils recueillent d’avance et qu’ils assemblent les ensembles de données qui décrivent le risque d'inondation dans leur zone d'étude (voir :ref:`Section3 <applications_and_workflows>`). Lorsque l'analyse dans CanFlood est terminée, les utilisateurs doivent faire appel à leur propre jugement et expérience pour ajouter le contexte et les conseils nécessaires à tout rapport avant de transmettre les résultats aux décideurs. Les résultats de CanFlood ne devraient pas servir à « rendre » des décisions. On devrait plutôt les utiliser pour « informer » les décisions, ainsi que tous les autres aspects et critères pertinents pour la communauté à risque.
+Le plugin de CanFlood n’est PAS un modèle de risque d'inondation. Il s’agit plutôt d’une plate-forme de modélisation comportant un éventail d’outils pour aider les utilisateurs à créer, à exécuter et à analyser leurs propres modèles. CanFlood  exige des utilisateurs qu’ils recueillent d’avance et qu’ils assemblent les ensembles de données qui décrivent le risque d'inondation dans leur zone d'étude (voir :ref:`Section3 <03_applications_et_flux des travaux>`). Lorsque l'analyse dans CanFlood est terminée, les utilisateurs doivent faire appel à leur propre jugement et expérience pour ajouter le contexte et les conseils nécessaires à tout rapport avant de transmettre les résultats aux décideurs. Les résultats de CanFlood ne devraient pas servir à *rendre* des décisions. On devrait plutôt les utiliser pour *informer* les décisions, ainsi que tous les autres aspects et critères pertinents pour la communauté à risque.
 
 .. _Section1.1:
 
@@ -53,7 +53,7 @@ En tenant compte des limites des outils actuels et du besoin croissant de minimi
 
 **Guides d'orientation fédéraux sur la cartographie des zones inondables**
 
-La série Guides d’orientation fédéraux sur la cartographie des plaines inondables » a été développée sous la direction du Comité de la cartographie des inondations (CCI). Le CCI est un partenariat entre Sécurité publique Canada, Ressources naturelles Canada, Environnement et Changement climatique Canada, le Conseil national de recherches du Canada, Recherche et développement pour la défense Canada, les Forces armées canadiennes, Infrastructure Canada, Relations Couronne-Autochtones et Affaires du Nord Canada. » Il s’agit d’une série de directives évolutives qui contribueront à faire avancer les activités de cartographie des inondations partout au Canada » (Sécurité publique Canada 2018). Il est possible de trouver les documents publiés en cherchant « Guides d'orientation fédéraux sur la cartographie des zones inondables » sur le Web. <https://www.publicsafety.gc.ca/cnt/mrgnc-mngmnt/dsstr-prvntn-mtgtn/ndmp/fldpln-mppng-en.aspx>`__ The following are particularly relevant to CanFlood:
+"La série Guides d’orientation fédéraux sur la cartographie des plaines inondables » a été développée sous la direction du Comité de la cartographie des inondations (CCI). Le CCI est un partenariat entre Sécurité publique Canada, Ressources naturelles Canada, Environnement et Changement climatique Canada, le Conseil national de recherches du Canada, Recherche et développement pour la défense Canada, les Forces armées canadiennes, Infrastructure Canada, Relations Couronne-Autochtones et Affaires du Nord Canada." Il " s’agit d’une série de directives évolutives qui contribueront à faire avancer les activités de cartographie des inondations partout au Canada" (Sécurité publique Canada 2018). Il est possible de trouver les documents publiés en cherchant `"Guides d'orientation fédéraux sur la cartographie des zones inondables" sur le Web. <https://www.publicsafety.gc.ca/cnt/mrgnc-mngmnt/dsstr-prvntn-mtgtn/ndmp/fldpln-mppng-en.aspx>`__ The following are particularly relevant to CanFlood:
 
 • Directives fédérales d’estimation des dommages causés par les inondations aux édifices et aux infrastructures (en cours d'élaboration)
 
@@ -61,12 +61,21 @@ La série Guides d’orientation fédéraux sur la cartographie des plaines inon
 
 **Directives internationales**
 
-
-Instance responsable / autorité	Directive (référence)
-Royaume-Uni	Flood and coastal erosion risk management – Manual (Penning-Rowsell et al. 2013)
-United States	Multi-Hazard Loss Estimation Methodology, Flood Model:
-Hazus-MH MR2 Technical Manual (FEMA 2012) Risk-Based Analysis For Flood Damage Reduction Studies (USACE 1996)
-Tying flood insurance to flood risk for low-lying structures in the floodplain (National Research Council 2015) Principles of Risk Analysis for Water Resources (IWR and USACE 2017)
++--------------------------------+------------+----------+----------+----------+----------+----------+----------+
+|Instance responsable / autorité |     Directive (référence)                                                    |          
++================================+============+==========+==========+==========+==========+==========+==========+
+| Royaume-Uni                    | Flood and coastal erosion risk management – Manual                           |
+|                                | (Penning-Rowsell et al. 2013)                                                |
++--------------------------------+------------+----------+----------+----------+----------+----------+----------+
+| United States                  | Multi-Hazard Loss Estimation Methodology, Flood Model:                       |
+|                                |                                                                              |
+|                                | Hazus-MH MR2 Technical Manual (FEMA 2012)                                    |
+|                                | Risk-Based Analysis For Flood Damage Reduction Studies (USACE 1996)          |
+|                                |                                                                              |
+|                                | Tying flood insurance to flood risk for low-lying structures in the          |
+|                                | floodplain (National Research Council 2015)                                  |
+|                                | Principles of Risk Analysis for Water Resources (IWR and USACE 2017)         |
++--------------------------------+------------+---------------------+----------+----------+----------+----------+
 
 
 1.1.3 Modèles basés sur le risque ou sur un événement
@@ -91,7 +100,7 @@ Voir à la Section1.1.2_ un résumé des directives et des procédures en matiè
 1.3 Niveaux des modèles de risque
 *********************
 
-Les objectifs et les applications de l'analyse du risque d'inondation sont aussi variés que les communautés qu’ils desservent. Pour s’adapter à ce vaste éventail, CanFlood renferme trois types de modèles de risque qui présentent une complexité accrue, comme on peut le voir au tableau 1-1_ et comme on en discute dans la :ref:`Section5.2 <Section5.2>`. Pour faciliter la construction et l'analyse de ces modèles de risque, CanFlood comprend également les trousses d'outils ‘Build’ et ‘Results’ respectivement (:ref:`Section5.1 <Section5.1>` et :ref:`Section5.3 <Section5.3>`). La façon de relier tous des éléments pour effectuer une analyse est décrite dans la :ref:`Section4.5 <Section4.5>` et des didacticiels comparables sont présentés dans la :ref:`Section6 <Section6>`.
+Les objectifs et les applications de l'analyse du risque d'inondation sont aussi variés que les communautés qu’ils desservent. Pour s’adapter à ce vaste éventail, CanFlood renferme trois types de modèles de risque qui présentent une complexité accrue, comme on peut le voir au tableau Table1-1_ et comme on en discute dans la :ref:`Section5.2 <Section5.2>`. Pour faciliter la construction et l'analyse de ces modèles de risque, CanFlood comprend également les trousses d'outils ‘Build’ et ‘Results’ respectivement (:ref:`Section5.1 <Section5.1>` et :ref:`Section5.3 <Section5.3>`). La façon de relier tous des éléments pour effectuer une analyse est décrite dans la :ref:`Section4.5 <Section4.5>` et des didacticiels comparables sont présentés dans la :ref:`Section6 <Section6>`.
 
 .. _Table1-1:
 
