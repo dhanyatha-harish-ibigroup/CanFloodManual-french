@@ -117,67 +117,38 @@ Les objectifs et les applications de l'analyse du risque d'inondation sont aussi
 +------------------------+--------------------------------------+---------------------------------+----------------------------+
 | Flux des travaux       | :ref:`Section3.1 <Section3.1>`       | :ref:`Section3.2 <Section3.2>`  | Annexe B                   |
 +------------------------+--------------------------------------+---------------------------------+----------------------------+
-
-.. list-table::
-    :header-rows: 1
-    :stub-columns: 1
-
-    * -  
-      - 
-      -  
-      -  
-    * - 
-      -   
-      -   
-      -   
-    * -  
-      - 
-      - 
-      - 
-    * - Noms des outils du modèle CanFlood
-      - Risque (L1)
-      - Impacts (L2) et Risque (L2)
-      - Risque (L3) (appelé également SOFDA)
-    * - Données requises 
-      - bas
-      - moyen
-      - haut
-    * - Niveau de l'effort de modélisation (par bien) 
-      - bas
-      - bas
-      - haut
-    * - Complexité du modèle
-      - bas
-      - moyen
-      - haut
-    * - Fonctions d’impact
-      - aucune (inondation seulement)
-      - par objet
-      - par objet, non compilé
-    * - Quantification de l’incertitude 
-      - aucune
-      - aucune
-      - modélisation stochastique
-    - MPLP  
-      - oui
-      - oui
-      - oui
-    * - Dynamique du risque 
-      - non
-      - non
-      - oui
-    * - Géométrie du bien
-      - point, polygone, ligne
-      - point, polygone, ligne
-      - point
-    * - Intrants 
-      - inventaire des biens, événements de danger, DTM (facultatif), événements de défaillance connexes (facultatif)
-      - identique à L1 plus: Ensemble de fonctions d’impact
-      - inventaire des biens, tableaux WSL, fonctions de vulnérabilité (non compilées) paramètres dynamiques, autres
-    * - Extrants primaires
-      - impacts totaux (‘r_ttl’), impacts par bien (‘r_passet’), courbe de risque
-      - identique à L1
-      - table d’exposition, schéma sommaire des impacts annualisés (sommaire et pour chaque bien), autres 
+| Noms des outils du     | Risque (L1)                          | Impacts (L2) et Risque (L2)     | Risque (L3)                |
+| modèle CanFlood        |                                      |                                 | (appelé également SOFDA)   |
++------------------------+--------------------------------------+---------------------------------+----------------------------+
+| Données requises       | bas                                  | moyen                           | haut                       |
++------------------------+--------------------------------------+---------------------------------+----------------------------+
+| Niveau de l'effort de  | bas                                  | bas                             | haut                       |
+| modélisation (par bien)|                                      |                                 |                            |
++------------------------+--------------------------------------+---------------------------------+----------------------------+
+| Complexité du modèle   | bas                                  | moyen                           | haut                       |
++------------------------+--------------------------------------+---------------------------------+----------------------------+
+| Fonctions d’impact     | aucune (inondation seulement)        | par objet                       | par objet, non compilé     |
++------------------------+--------------------------------------+---------------------------------+----------------------------+
+| Quantification de      | aucune                               | aucune                          | modélisation stochastique  |
+| l’incertitude          |                                      |                                 |                            |
++------------------------+--------------------------------------+---------------------------------+----------------------------+
+| MPLP                   | oui                                  | oui                             | oui                        |
++------------------------+--------------------------------------+---------------------------------+----------------------------+
+| Dynamique du risque    | non                                  | non                             | oui                        |
++------------------------+--------------------------------------+---------------------------------+----------------------------+
+| Géométrie du bien      | point, polygone, ligne               | point, polygone, ligne          | point                      |
++------------------------+--------------------------------------+---------------------------------+----------------------------+
+| Intrants               | inventaire des biens, événements     | identique à L1 plus:            | inventaire des biens,      |
+|                        | de danger, DTM (facultatif),         | Ensemble de fonctions d’impact  | tableaux WSL, fonctions    |
+|                        | événements de défaillance            |                                 | de vulnérabilité (non      |
+|                        | connexes (facultatif)                |                                 | compilées) paramètres      |
+|                        |                                      |                                 | dynamiques, autres         |
++------------------------+--------------------------------------+---------------------------------+----------------------------+
+| Extrants primaires     | impacts totaux (‘r_ttl’),            | identique à L1                  | table d’exposition, schéma |
+|                        | impacts par bien (‘r_passet’),       |                                 | sommaire des impacts       |
+|                        | courbe de risque                     |                                 | annualisés (sommaire et    |
+|                        |                                      |                                 | pour chaque bien), autres  |
++------------------------+--------------------------------------+---------------------------------+----------------------------+
 
 1. Adapté de Penning-Rowsell et al. (2019)
 
