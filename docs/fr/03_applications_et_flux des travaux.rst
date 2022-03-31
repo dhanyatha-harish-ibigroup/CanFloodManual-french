@@ -29,7 +29,7 @@ La plupart des flux des travaux dans CanFlood  exigent de l'utilisateur qu’il 
 
 .. image:: /_static/app_workflow_build_model.jpg
 
-*Figure 3-1 : Flux des travaux de construction d’un modèle type faisant appel aux outils ‘Build’ de CanFlood  de l'étape ‘Setup’ à l'étape ‘Validation’. Les intrants de données sont décrites dans :ref:`Section3 <applications_and_workflows>`, alors que les outils et les extrants sont décrits dans*  :ref:`Section5.1 <Section5.1>` 
+*Figure 3-1 : Flux des travaux de construction d’un modèle type faisant appel aux outils ‘Build’ de CanFlood  de l'étape ‘Setup’ à l'étape ‘Validation’. Les intrants de données sont décrites dans* :ref:`Section3 <applications_and_workflows>` *, alors que les outils et les extrants sont décrits dans*  :ref:`Section5.1 <Section5.1>` 
 
 D’autres informations et des outils additionnels pour faciliter la construction des modèles sont présentés dans la :ref:`Section5.1 <Section5.1>`.
 
