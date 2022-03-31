@@ -18,10 +18,10 @@ Comme on le mentionne dans les références de la section, plusieurs de ces éta
 
 **Création de modèles**
 
-La plupart des flux des travaux dans CanFlood  exigent de l'utilisateur qu’il emploie une séquence comparable des outils ‘Build’ qui sont décrits dans :ref:`Section5.1 <Section5.1>` pour préparer l'ensemble de modèle CanFlood . La figure 3-1 présente un flux des travaux type de l'étape ‘Setup’ à l'étape ‘Validation’. L’intégration ou non des étapes facultatives apparaissant sur le schéma dépendra de ce qui suit :
+La plupart des flux des travaux dans CanFlood  exigent de l'utilisateur qu’il emploie une séquence comparable des outils ‘Build’ qui sont décrits dans :ref:`Section5.1 <Section5.1>` pour préparer l'ensemble de modèle CanFlood . La Figure3-1_ présente un flux des travaux type de l'étape ‘Setup’ à l'étape ‘Validation’. L’intégration ou non des étapes facultatives apparaissant sur le schéma dépendra de ce qui suit :
 
   • *Niveau de modèle de risque*: Les modèles L2 ont besoin de fonctionnement de vulnérabilité (‘courbes’) (voir la section3.2_).
-  • *Bris de défense*: Les modèles L1 ou L2 comportant une certaine faille de protection ont besoin d’événements de faille compagnons (trames de faille et polygones de faille (voir la section 3.3_).
+  • *Bris de défense*: Les modèles L1 ou L2 comportant une certaine faille de protection ont besoin d’événements de faille compagnons (trames de faille et polygones de faille (voir la Section3.3_).
   • *Hauteurs des biens*: Les modèles L1 ou L2 comportant des inventaires de biens accompagnés de données de hauteur d’objet par rapport au sol ont besoin de données d’élévation du sol (‘gels’).
   • *Type d'exposition*: Les modèles L1 ou L2 qui présentent des biens géométriques sans point évaluant l'exposition en pourcentage d'inondation (:ref:`Section5.1.3 <Section5.1.3>`) ont besoin d’une couche DTM.
 
