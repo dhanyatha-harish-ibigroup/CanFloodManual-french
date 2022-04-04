@@ -15,7 +15,7 @@ Cette section concerne l'utilisation et le fonctionnement des trousses d'outils 
 .. image:: /_static/build_image.jpg
    :align: right
 
-La trousse d'outils de construction renferme un éventail d'outils dont on présente un résumé au tableau5-1_ dans le but d’aider le modélisateur du risque d'inondation à fabriquer les modèles L1 et L2 de CanFlood.
+La trousse d'outils de construction renferme un éventail d'outils dont on présente un résumé au Table5-1_ dans le but d’aider le modélisateur du risque d'inondation à fabriquer les modèles L1 et L2 de CanFlood.
 
 .. _Table5-1:
 
