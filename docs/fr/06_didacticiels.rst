@@ -460,7 +460,7 @@ Pour comprendre l'effet des paramètres d'atténuation, ouvrez le fichier de com
 
 .. image:: /_static/tutorials_6_5_2_img_2.jpg
 
-Remarquez que les petits événements (50 ans et 100 ans) ont changé considérablement, mais moins dans le cas des événements plus importants. C’est logique, sachant que nous avons informé CanFlood que les mesures d'atténuation allaient être dépassées à des profondeurs supérieures à 0,2 m (au moyen du paramètre du seuil de profondeur supérieur). Nous pouvons étudier plus longuement ce modèle de comportement en ouvrant (l’influence des fonctions d'atténuation sur les profondeurs ne se reflète pas dans cet extrant) un des extrants ‘depths\_’, qui devrait ressembler à celui ci-dessous (les valeurs sous le seuil supérieur sont surlignées en rouge pour les rendre plus évidentes):
+Remarquez que les petits événements (50 ans et 100 ans) ont changé considérablement, mais moins dans le cas des événements plus importants. C’est logique, sachant que nous avons informé CanFlood que les mesures d'atténuation allaient être dépassées à des profondeurs supérieures à 0.2 m (au moyen du paramètre du seuil de profondeur supérieur). Nous pouvons étudier plus longuement ce modèle de comportement en ouvrant (l’influence des fonctions d'atténuation sur les profondeurs ne se reflète pas dans cet extrant) un des extrants ‘depths\_’, qui devrait ressembler à celui ci-dessous (les valeurs sous le seuil supérieur sont surlignées en rouge pour les rendre plus évidentes):
 
 .. image:: /_static/tutorials_6_5_2_img_3.jpg
 
@@ -640,7 +640,7 @@ Les résultats pour chaque bien devraient ressembler à ce qui suit:
 
 .. image:: /_static/tutorials_6_9_img_1.jpg
 
-Les premières colonnes ‘impact’ sans index représentent les événements dangereux, alors que les valeurs montrent le pourcentage d'inondation de chaque segment multiplié par sa valeur ‘f0_scale’. Cela pourrait représenter les mètres inondés (au-dessus du seuil de profondeur de 0,5 m) par segment, si la valeur ‘f0_scale’ représente la longueur du segment (comme c’est le cas avec l'inventaire du didacticiel). Ou encore, la valeur ‘f0_scale’ pourrait être réglée à ‘1.0’ pour toutes les caractéristiques, de sorte que les valeurs reflèteraient simplement le % d'inondation de chaque segment (reflétant ainsi l’extrant de l'outil d’échantillonneur de risque), alors que la dernière colonne calculerait le pourcentage annuel attendu d'inondation du segment.
+Les premières colonnes ‘impact’ sans index représentent les événements dangereux, alors que les valeurs montrent le pourcentage d'inondation de chaque segment multiplié par sa valeur ‘f0_scale’. Cela pourrait représenter les mètres inondés (au-dessus du seuil de profondeur de 0.5 m) par segment, si la valeur ‘f0_scale’ représente la longueur du segment (comme c’est le cas avec l'inventaire du didacticiel). Ou encore, la valeur ‘f0_scale’ pourrait être réglée à ‘1.0’ pour toutes les caractéristiques, de sorte que les valeurs reflèteraient simplement le % d'inondation de chaque segment (reflétant ainsi l’extrant de l'outil d’échantillonneur de risque), alors que la dernière colonne calculerait le pourcentage annuel attendu d'inondation du segment.
 
 ************************************************
 6.10. Didacticiel 5a: Risque (L1) de l’INRP et de GAR15
@@ -820,7 +820,7 @@ Pour visualiser les valeurs de franc-bord calculées, appliquez l’option ‘Si
 
 .. image:: /_static/tutorials_6_11_1_img_3.jpg
 
-Il s’agit du tracé de profil de la digue 43, segment 1 (sid=4301) montrant l’élévation de crête calculée et le WSL pour les quatre trames d'événement (échantillonnées avec chaque transect). Notez que ce tracé porte à croire que le franc-bord de 50 ans doit se situer aux alentours de -0,2 m (voyez le cercle rouge ci-dessus). Ouvrez maintenant le fichier ‘tut6_dExpo_7_3.csv’ dans le répertoire de travail. Il s’agit de l'ensemble de données du segment de digue (‘dexpo’ que nous utiliserons dans l'étape suivante pour calculer les probabilités de défaillance.  Notez que la valeur du franc-bord du segment-événement en question est de -0,2m comme on s’y attendait:
+Il s’agit du tracé de profil de la digue 43, segment 1 (sid=4301) montrant l’élévation de crête calculée et le WSL pour les quatre trames d'événement (échantillonnées avec chaque transect). Notez que ce tracé porte à croire que le franc-bord de 50 ans doit se situer aux alentours de -0.2 m (voyez le cercle rouge ci-dessus). Ouvrez maintenant le fichier ‘tut6_dExpo_7_3.csv’ dans le répertoire de travail. Il s’agit de l'ensemble de données du segment de digue (‘dexpo’ que nous utiliserons dans l'étape suivante pour calculer les probabilités de défaillance.  Notez que la valeur du franc-bord du segment-événement en question est de -0.2m comme on s’y attendait:
 
 .. image:: /_static/tutorials_6_11_1_img_4.jpg
 
@@ -945,7 +945,7 @@ Pour générer un tracé de comparaison de ces deux scénarios, allez à l’ong
 .. _Section6.13:
 
 ***************************************
-6,13. Didacticiel 8a: Analyse de sensibilité
+6.13. Didacticiel 8a: Analyse de sensibilité
 ***************************************
 
 Ce didacticiel démontre le flux des travaux de *l'analyse de sensibilité* (:ref:`Section5.4.5 <Section5.4.5>`). Celui-ci peut être utile pour quantifier la sensibilité de votre modèle en fonction de chaque paramètre et fichier de données.
@@ -992,7 +992,7 @@ Allez à l’onglet *Compile*. Les valeurs de ‘base’ qui apparaissent sur la
 
 Ajoutez maintenant trois autres modèles candidats en **cliquant sur le bouton ‘Add’ à trois reprises**. Remarquez que les noms de modèle ont été générés automatiquement, mais les autres champs sont identiques au modèle de base. Nous allons maintenant modifier ou ‘perturber’ un paramètre ou un fichier de données pour chaque candidat afin de compiler la suite d'analyse de sensibilité.
 
-Pour la première perturbation, **remplacez simplement la valeur rtail ‘cand01’ à 0,1**. Pour la deuxième perturbation, **modifiez le paramètre 'curve_deviation' sur 'cand02' à 'lo'** afin qu’il corresponde à la valeur des dommages à la profondeur moindre qui est enregistrée dans le fichier curves.xls. Nous allons configurer les deux autres perturbations à l'étape suivante. 
+Pour la première perturbation, **remplacez simplement la valeur rtail ‘cand01’ à 0.1**. Pour la deuxième perturbation, **modifiez le paramètre 'curve_deviation' sur 'cand02' à 'lo'** afin qu’il corresponde à la valeur des dommages à la profondeur moindre qui est enregistrée dans le fichier curves.xls. Nous allons configurer les deux autres perturbations à l'étape suivante. 
 
 Pour nous permettre de différencier les tracés, nous générons (voir ci-dessous), **cliquez sur 'Randomize Colors'**. 
 
@@ -1008,15 +1008,15 @@ Sur l’onglet *DataFiles*, sélectionnez 'cand03' et 'finv' pour intégrer le f
 
 .. image:: /_static/tutorials_6_13_img_4.JPG
 
-Nous allons maintenant soustraire 0,5 de f0_elvs. **Cliquer sur 'Open Attribute Table'** (ou sur le bouton correspondant sur la barre d'outils QGIS ou appuyer sur 'F6') pour ouvrir la fenêtre des tables d’attributs. Notez mentalement les valeurs de 'f0_elv'. Ouvrez maintenant le *Calculateur de terrain* (Ctrl + I). Cochez 'Update Existing Field' et sélectionnez 'f0_elv' dans la boîte combo. Sélectionnez la fonction d’expression 'finv_elv_add' dans le menu 'CanFlood' au centre et complétez l’expression affichée :
+Nous allons maintenant soustraire 0.5 de f0_elvs. **Cliquer sur 'Open Attribute Table'** (ou sur le bouton correspondant sur la barre d'outils QGIS ou appuyer sur 'F6') pour ouvrir la fenêtre des tables d’attributs. Notez mentalement les valeurs de 'f0_elv'. Ouvrez maintenant le *Calculateur de terrain* (Ctrl + I). Cochez 'Update Existing Field' et sélectionnez 'f0_elv' dans la boîte combo. Sélectionnez la fonction d’expression 'finv_elv_add' dans le menu 'CanFlood' au centre et complétez l’expression affichée :
 
 .. image:: /_static/tutorials_6_13_img_5.JPG
 
-**Cliquez sur 'OK'** pour apporter les changements aux valeurs de champ. Examinez les valeurs de 'f0_elv' dans la table des attributs. Ces valeurs devraient être de 0,5 inférieures à ce qu’elles étaient auparavant (c'est-à-dire 0,5 de moins que le modèle de base). 
+**Cliquez sur 'OK'** pour apporter les changements aux valeurs de champ. Examinez les valeurs de 'f0_elv' dans la table des attributs. Ces valeurs devraient être de 0.5 inférieures à ce qu’elles étaient auparavant (c'est-à-dire 0.5 de moins que le modèle de base). 
 
 De retour sur l’onglet 'DataFiles', **cliquez sur 'Save Datafile'** pour écraser l’ancien fichier .csv avec les modifications. 
 
-Pour notre perturbation finale, nous allons soustraire 0,5 m des élévations du terrain (‘gels’). Sélectionnez 'cand04' et 'gels' et **cliquez sur 'Load'** pour charger ce fichier de données. Procédez de la manière décrite ci-dessus pour configurer le *Calculateur de terrain* et saisir la formule présentée ci-dessous :
+Pour notre perturbation finale, nous allons soustraire 0.5 m des élévations du terrain (‘gels’). Sélectionnez 'cand04' et 'gels' et **cliquez sur 'Load'** pour charger ce fichier de données. Procédez de la manière décrite ci-dessus pour configurer le *Calculateur de terrain* et saisir la formule présentée ci-dessous :
 
 .. image:: /_static/tutorials_6_13_img_6.JPG
 
