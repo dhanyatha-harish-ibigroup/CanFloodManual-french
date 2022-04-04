@@ -1,4 +1,4 @@
-.. _annexe_a:
+.. _appendix_a:
 
 =============================
 Annexe A: Connexions Web

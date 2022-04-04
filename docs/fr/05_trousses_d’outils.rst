@@ -770,7 +770,7 @@ L'outil de comparaison recueille l'ensemble de données des résultats totaux (�
 
 **Combine** (Combiner)
 
-L’outil de combinaison recueille les ensembles de données sur les résultats totaux (‘r_ttl’) et les paramètres du fichier de commande principal (de l’onglet ‘Setup’) afin de générer deux types d’extrants :
+L’outil de combinaison recueille les ensembles de données sur les résultats totaux (‘r_ttl’) et les paramètres du fichier de commande principal (de l’onglet ‘Setup’) afin de générer deux types d’extrants:
 
   • *Composite scenario*: (Scénario composite) Choisir cette option au moment d’exécuter l'outil ‘Combine’ pour générer un nouveau fichier de commande composite et le fichier de résultats ‘r_ttl’ pour une analyse plus poussée.
   • *Plot combine* (combiner les tracés) : Crée une courbe de risque cumulative montrant la contribution à l'égard du risque total de chaque fichier de commande sélectionné.
@@ -778,11 +778,11 @@ L’outil de combinaison recueille les ensembles de données sur les résultats 
 5.3.4. Analyse des coûts-avantages
 ============================
 
-Cet onglet renferme deux outils pour soutenir les calculs de base des coûts-avantages qui sont communément utilisés lors des évaluations des options d'atténuation des inondations. L’analyse des coûts-avantages (ACA) est un processus complexe qu’on aborde ailleurs (Merz et al. 2010; Smith et al. 2016; IWR et USACE 2017) et qui s’accompagne de nombreux défis et lacunes lorsqu’on l’applique aux décisions touchant l’atténuation des inondations (O’Connell and O’Donnell 2014; Hosein 2016). En résumé, l’ACA compare la valeur actualisée nette des coûts d’une intervention (comme la construction, l'entretien) pour le profit ou pour évider les inondations grâce à l'intervention. Par l'application d’un taux d’escompte à des calculs de la valeur nette actualisée, l’ACA est sensible au moment ou à l’accroissement des avantages et des coûts. Un flux des travaux typique lors de la mise en oeuvre d’une ACA dans CanFlood est présenté ci-dessous :
+Cet onglet renferme deux outils pour soutenir les calculs de base des coûts-avantages qui sont communément utilisés lors des évaluations des options d'atténuation des inondations. L’analyse des coûts-avantages (ACA) est un processus complexe qu’on aborde ailleurs (Merz et al. 2010; Smith et al. 2016; IWR et USACE 2017) et qui s’accompagne de nombreux défis et lacunes lorsqu’on l’applique aux décisions touchant l’atténuation des inondations (O’Connell and O’Donnell 2014; Hosein 2016). En résumé, l’ACA compare la valeur actualisée nette des coûts d’une intervention (comme la construction, l'entretien) pour le profit ou pour évider les inondations grâce à l'intervention. Par l'application d’un taux d’escompte à des calculs de la valeur nette actualisée, l’ACA est sensible au moment ou à l’accroissement des avantages et des coûts. Un flux des travaux typique lors de la mise en oeuvre d’une ACA dans CanFlood est présenté ci-dessous:
 
 .. image:: /_static/toolsets_model_fig_5_3_4.jpg
 
-Pour soutenir des calculs simples de l'ACA, l’onglet ‘BCA’ de CanFlood comporte les outils suivants :
+Pour soutenir des calculs simples de l'ACA, l’onglet ‘BCA’ de CanFlood comporte les outils suivants:
 
 **Copy BCA Template** (Copier modèle d’ACA)
 
