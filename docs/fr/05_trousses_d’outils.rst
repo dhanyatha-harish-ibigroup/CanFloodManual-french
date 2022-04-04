@@ -180,17 +180,40 @@ Pour prendre en charge un vaste éventail d'analyses de vulnérabilité, l’out
 
 *Tableau 5-3 : Configuration de l'échantillonneur de risque en fonction du type de géométrie et du [didacticiel pertinent.*]
 
++------------------------+---------------------------------------------+---------------------------------------------+
+| Géométrie              |                       WSL                   |                 Inundation                  |
+|                        +------------------------+--------------------+------------------------+--------------------+
+|                        | Paramètres             | Exposure           | Paramètres             | Exposure           |
++========================+========================+====================+========================+====================+
+| Point                  | Default                | WSL                | Default                | WSL :sup:`1`       |
+|                        | [Tutorial 2a]          |                    | [Tutorial 1a]          |                    |
++------------------------+------------------------+--------------------+------------------------+--------------------+
+| Ligne:sup:`4`          | Sample Statistic       | WSL Statistic      | % inundation,          | % inundation       |  
+|                        | :sup:`3, 5`            |                    | Depth Thresh :sup:`2`  |                    |
+|                        |                        |                    | [Tutorial 4b]          |                    |
++------------------------+------------------------+--------------------+------------------------+--------------------+
+| Polygone:sup:`4`       | Sample Statistic       | WSL Statistic      | % inundation,          | % inundation       |
+|                        | :sup:`3`               |                    | Depth Thresh :sup:`2`  |                    |
+|                        |                        |                    | [Tutorial 4a]          |                    |
++------------------------+------------------------+--------------------+------------------------+--------------------+
+| 1. Pour appliquer une profondeur de seuil, les valeurs f_elv peuvent être manipulées manuellement. Les valeurs     |
+|    d'exposition WSL sont converties en exposition binaire (c'est-à-dire inondé ou non inondé) par le modèle de     |
+|    isque (L1).                                                                                                     |
+| 2. Une trame DTM doit être indiquée sur l’onglet ‘DTM Sampler’. Les outils du modèle prévoient que l'inventaire    |
+|    de biens (‘finv’) comporte une colonne ‘f_elv’ avec tous les zéros et le paramètre .felv=’datum’. Respecte les  |
+|    valeurs des cellules de trame NULLE comme n’étant pas inondées.                                                 |
+| 3. Ignore les valeurs NoData lors du calcul des statistiques.                                                      |
+| 4. Les valeurs M et Z ne sont pas prises en charge.                                                                |
+| 5. Affiche l’erreur ‘feature(s) from input layer could not be matched’ lorsque des valeurs zéro sont rencontrées.  |
+|    Il est possible d’ignorer cette erreur sans danger.                                                             |
++------------------------+-------------------------+--------------------+------------------------+-------------------+
+
 Géométrie	WSL
 	Paramètres
 Point	Défaut (didacticiel 2A)
 Ligne	Échantillon de statistiques 3.5 
 Polygone	Échantillon de statistiques 3
 
-1.	Pour appliquer une profondeur de seuil, les valeurs f_elv peuvent être manipulées manuellement. Les valeurs d'exposition WSL sont converties en exposition binaire (c'est-à-dire inondé ou non inondé) par le modèle de risque (L1).
-2.	Une trame DTM doit être indiquée sur l’onglet ‘DTM Sampler’. Les outils du modèle prévoient que l'inventaire de biens (‘finv’) comporte une colonne ‘f_elv’ avec tous les zéros et le paramètre .felv=’datum’. Respecte les valeurs des cellules de trame NULLE comme n’étant pas inondées.
-3.	Ignore les valeurs NoData lors du calcul des statistiques.
-4.	Les valeurs M et Z ne sont pas prises en charge.
-5.	Affiche l’erreur ‘feature(s) from input layer could not be matched’ lorsque des valeurs zéro sont rencontrées. Il est possible d’ignorer cette erreur sans danger.
 
 
 
