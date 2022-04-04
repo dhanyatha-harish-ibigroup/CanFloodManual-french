@@ -24,7 +24,7 @@ En ce qui concerne les modèles d’impacts (L2) et de risque (L2), les champs a
   • *fX_tag*: valeur correspondant au modèle de la fonction de vulnérabilité qu’on doit attribuer à ce bien;
   • *fX_cap*: valeur servant à limiter la vulnérabilité prévue (par exemple, la valeur d'amélioration).
 
-D’autres champs sont permis, mais CanFlood  les ignore. Le paramètre fictif ‘X’ présenté cdu est appelé ‘nestID’ et sert à regrouper les quatre principaux attributs servant à paramétrer une ‘fonction imbriquée’ dont le modèle Impacts (L2) a besoin (:réf:`Section5.2.2 <Section5.2.2>`). La trousse d'outils ‘Build’ renferme un outil ‘Inventory Constructor’ capable de remplir un modèle d’inventaire pratique. Afin de remplir ce modèle pour une zone d'étude, on doit généralement procéder à une vaste analyse de données à l'extérieur du plugin de CanFlood .
+D’autres champs sont permis, mais CanFlood  les ignore. Le paramètre fictif ‘X’ présenté cdu est appelé ‘nestID’ et sert à regrouper les quatre principaux attributs servant à paramétrer une ‘fonction imbriquée’ dont le modèle Impacts (L2) a besoin (:ref:`Section5.2.2 <Section5.2.2>`). La trousse d'outils ‘Build’ renferme un outil ‘Inventory Constructor’ capable de remplir un modèle d’inventaire pratique. Afin de remplir ce modèle pour une zone d'étude, on doit généralement procéder à une vaste analyse de données à l'extérieur du plugin de CanFlood .
 
 .. _Section4.2:
 
