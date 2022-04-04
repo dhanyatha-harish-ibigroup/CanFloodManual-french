@@ -816,18 +816,18 @@ On explique ces types de couches dans la Section6.11_, alors que celles qui conc
 
 En son centre, cet outil échantillonne la trame WSL à l’extrémité de chaque transect et le DTM à la tête. Il compare ensuite ces valeurs pour calculer le franc-bord. Cela nous porte à croire que l'utilisation doit indiquer le côté approprié du transect, la longueur donnée à titre d’exemple et la longueur du transect basée sur la configuration de la digue et sur l'inondation pour obtenir un calcul précis du franc-bord.
 
-Pour visualiser les valeurs de franc-bord calculées, appliquez l’option ‘Single Labels’ pour les valeurs ‘sid’ sur la couche des digues traitées. Allez ensuite à votre répertoire de travail et ouvrez le fichier d’image *‘tut6 dike 43-1 profiles.svg’*. Celui-ci devrait ressembler à ce qui suit :
+Pour visualiser les valeurs de franc-bord calculées, appliquez l’option ‘Single Labels’ pour les valeurs ‘sid’ sur la couche des digues traitées. Allez ensuite à votre répertoire de travail et ouvrez le fichier d’image *‘tut6 dike 43-1 profiles.svg’*. Celui-ci devrait ressembler à ce qui suit:
 
 .. image:: /_static/tutorials_6_11_1_img_3.jpg
 
-Il s’agit du tracé de profil de la digue 43, segment 1 (sid=4301) montrant l’élévation de crête calculée et le WSL pour les quatre trames d'événement (échantillonnées avec chaque transect). Notez que ce tracé porte à croire que le franc-bord de 50 ans doit se situer aux alentours de -0,2 m (voyez le cercle rouge ci-dessus). Ouvrez maintenant le fichier ‘tut6_dExpo_7_3.csv’ dans le répertoire de travail. Il s’agit de l'ensemble de données du segment de digue (‘dexpo’ que nous utiliserons dans l'étape suivante pour calculer les probabilités de défaillance.  Notez que la valeur du franc-bord du segment-événement en question est de -0,2m comme on s’y attendait :
+Il s’agit du tracé de profil de la digue 43, segment 1 (sid=4301) montrant l’élévation de crête calculée et le WSL pour les quatre trames d'événement (échantillonnées avec chaque transect). Notez que ce tracé porte à croire que le franc-bord de 50 ans doit se situer aux alentours de -0,2 m (voyez le cercle rouge ci-dessus). Ouvrez maintenant le fichier ‘tut6_dExpo_7_3.csv’ dans le répertoire de travail. Il s’agit de l'ensemble de données du segment de digue (‘dexpo’ que nous utiliserons dans l'étape suivante pour calculer les probabilités de défaillance.  Notez que la valeur du franc-bord du segment-événement en question est de -0,2m comme on s’y attendait:
 
 .. image:: /_static/tutorials_6_11_1_img_4.jpg
 
 6.11.2. Calculer la vulnérabilité des digues
 ====================================
 
-Cette étape fera appel aux valeurs de franc-bord que nous avons calculées précédemment et aux courbes de fragilité fournies par l'utilisateur pour calculer la probabilité de bris de chaque segment. Passez à l’onglet ‘Dike Vulnerability’. Vous devriez voir le chemin de fichiers menant aux résultats d'exposition ci-dessus apparaître automatiquement dans le champ ‘dexpo_fp’. Sélectionnez maintenant la bibliothèque des courbes de fragilité, soit le fichier ‘dike_fragility_20210201.xls’ qui accompagne les données du didacticiel. Les noms d’onglet de ce cahier d’exercices correspondent au champ ‘f0_dtag’ sur la couche des digues, qui informe CanFlood sur la courbe qu’il doit appliquer à quel segment. Choisissez ‘None’ pour les corrections à l'effet de longueur. Votre dialogue devrait ressembler à ce qui suit :
+Cette étape fera appel aux valeurs de franc-bord que nous avons calculées précédemment et aux courbes de fragilité fournies par l'utilisateur pour calculer la probabilité de bris de chaque segment. Passez à l’onglet ‘Dike Vulnerability’. Vous devriez voir le chemin de fichiers menant aux résultats d'exposition ci-dessus apparaître automatiquement dans le champ ‘dexpo_fp’. Sélectionnez maintenant la bibliothèque des courbes de fragilité, soit le fichier ‘dike_fragility_20210201.xls’ qui accompagne les données du didacticiel. Les noms d’onglet de ce cahier d’exercices correspondent au champ ‘f0_dtag’ sur la couche des digues, qui informe CanFlood sur la courbe qu’il doit appliquer à quel segment. Choisissez ‘None’ pour les corrections à l'effet de longueur. Votre dialogue devrait ressembler à ce qui suit:
 
 .. image:: /_static/tutorials_6_11_2_img_1.jpg
 
@@ -849,7 +849,7 @@ Les couches de résultats sont stylisées automatiquement en tant que polygones 
 .. _Section6.12:
 
 *************************************************
-6,12. Didacticiel 7a: Échantillonnage de géométries complexes
+6.12. Didacticiel 7a: Échantillonnage de géométries complexes
 *************************************************
 
 Ce didacticiel démontre *l'échantillonnage des valeurs* à partir de statistiques d'échantillonnage indiquées *pour chaque bien*. Cela peut être utile lorsque vous souhaitez procéder à un échantillonnage en faisant appel à des statistiques hétérogènes à l'intérieur d’un inventaire unique (par exemple, élévation du sol ‘Max’ pour certains édifices et élévation ‘Min’ pour d’autres). Commencez en téléchargeant les données du didacticiel du dossier `tutorials 7 <https://github.com/NRCan/CanFlood/tree/master/tutorials/7>`__ pour le charger dans un nouveau projet QGIS :
