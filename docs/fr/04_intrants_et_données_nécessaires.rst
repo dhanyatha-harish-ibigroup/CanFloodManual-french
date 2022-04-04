@@ -38,11 +38,11 @@ CanFlood a besoin d’un ensemble d’événements à risque pour calculer l'exp
 
   • **Event raster**: emplacement et WSL de l'inondation. L’outil ‘Hazard Sampler’ de CanFlood  (:ref:`Section5.1.3 <Section5.1.3>`) prévoit qu’il s’agit d’un fichier de données de trame, mais les routines du modèle de CanFlood  n’ont besoin que des données d'exposition sous forme de tableau (‘expos’). Les valeurs doivent correspondre aux données du projet (WSL) et sont habituellement développées à partir du logiciel de modélisation hydraulique.
 
-  • **Companion failure events (optional)**: Renferme l'information sur la probabilité et sur l'exposition résultants d’un bris du système de protection contre les inondations pendant l'événement à risque. Chaque événement à risque peut se voir attribuer plusieurs événement d’échec (voir: :réf:`Section1.4 <Section1.4>`) en précisant la même probabilité d’événement pour chaque ensemble de données ‘evals’ (voir :réf:`Section5.1.4 <Section5.1.4>`).
+  • **Companion failure events (optional)**: Renferme l'information sur la probabilité et sur l'exposition résultants d’un bris du système de protection contre les inondations pendant l'événement à risque. Chaque événement à risque peut se voir attribuer plusieurs événement d’échec (voir: :ref:`Section1.4 <Section1.4>`) en précisant la même probabilité d’événement pour chaque ensemble de données ‘evals’ (voir :ref:`Section5.1.4 <Section5.1.4>`).
 
       o Trame de bris: emplacement et WSL de l'événement de bris compagnon.
 
-      o Polygone de bris : Couche du polygone de probabilité d'exposition conditionnelle présentant les caractéristiques indiquant l’ampleur et la probabilité des bris d’élément pendant l'événement. L’outil ‘Dike Fragility Mapper’ tool (:réf:`Section5.1.5 <Section5.1.5>`) présente un ensemble d’algorithmes servant à préparer ces polygones à partir de l'information sur la fragilité des digues types et des trames d’événement. L’outil ‘Conditional P’ a besoin de ces polygones de bris pour générer les ensembles de données des probabilités d’exposition résolues (‘exlikes’) dont les modules de risques (L1) et de risque (L2) ont besoin.
+      o Polygone de bris : Couche du polygone de probabilité d'exposition conditionnelle présentant les caractéristiques indiquant l’ampleur et la probabilité des bris d’élément pendant l'événement. L’outil ‘Dike Fragility Mapper’ tool (:ref:`Section5.1.5 <Section5.1.5>`) présente un ensemble d’algorithmes servant à préparer ces polygones à partir de l'information sur la fragilité des digues types et des trames d’événement. L’outil ‘Conditional P’ a besoin de ces polygones de bris pour générer les ensembles de données des probabilités d’exposition résolues (‘exlikes’) dont les modules de risques (L1) et de risque (L2) ont besoin.
 
 .. _Section4.3:
 
@@ -79,7 +79,7 @@ Un DTM de projet est nécessaire uniquement pour les modèles qui présentent de
 4.5. Information sur les digues
 *********************
 
-Pour utiliser le module ‘Dike Fragility Mapper’ (:réf:`Section5.4.1 <Section5.4.1>`) afin de générer l'ensemble ‘failure polygon’, on a besoin des renseignements suivants sur le système de digues de la zone d'étude :
+Pour utiliser le module ‘Dike Fragility Mapper’ (:ref:`Section5.4.1 <Section5.4.1>`) afin de générer l'ensemble ‘failure polygon’, on a besoin des renseignements suivants sur le système de digues de la zone d'étude :
 
     • **Dike alignment**: Ce niveau de la ligne contient les renseignements suivants sur les digues étudiées :
         o face de la digue : indiquée par le sens de l’élément, ce qui indique à CanFlood le côté de l’élément dont on devrait échantillonner le WSL;
