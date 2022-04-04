@@ -666,7 +666,7 @@ Réglez le style de couche de la ZI de manière à ‘remplir le transparent rou
 
 **Connect to Web-Data** (Connexion aux données Web)
 
-Commencez en développant ‘Browser Panel’ dans QGIS (ctrl + 2) et en cliquant ensuite sur ‘Refresh’ sur le panneau. Le résultat devrait ressembler à ce qui suit :
+Commencez en développant ‘Browser Panel’ dans QGIS (ctrl + 2) et en cliquant ensuite sur ‘Refresh’ sur le panneau. Le résultat devrait ressembler à ce qui suit:
 
 .. image:: /_static/tutorials_6_10_1_img_1.jpg
 
@@ -676,7 +676,7 @@ Exécutez ensuite ‘Add Connections’ |addConnectionsImage| (Plugins > CanFloo
 
 .. image:: /_static/tutorials_6_10_1_img_2.jpg
 
-Cela décrit chacune des connexions que CanFlood a ajoutées à votre profil. Pour vérifier, revenez à l'option ‘Browser Panel’. Vous devriez voir les connexions suivantes (sous chaque type de connexion) :
+Cela décrit chacune des connexions que CanFlood a ajoutées à votre profil. Pour vérifier, revenez à l'option ‘Browser Panel’. Vous devriez voir les connexions suivantes (sous chaque type de connexion):
 
   • UNISDR_GAR15_GlobalRiskAssessment (WCS)
   • ECCC_NationalPollutantReleaseInventory_NPRI (ArcGIS Feature Service)
@@ -685,7 +685,7 @@ Remarquez que ces connexions resteront dans votre profil en vue des prochaines s
 
 **Download NPRI Data** (Télécharger les données de l’INRP)
 
-Maintenant que les connexions ont été ajoutées à votre profil, vous êtes prêt à télécharger les couches. Pour limiter la demande de données, assurez-vous que votre canevas de carte correspond approximativement aux étendues de la ZI (appuyez sur Ctrl+Maj+F pour faire un zoom sur les étendues du projet). Ouvrez maintenant la fonction ‘Data Source Manager’ de QGIS (Ctrl + L) et sélectionnez ‘ArcGIS Feature Server’. Sélectionnez ‘ECCC_NationalPollutantReleaseInventory_NPRI’ dans le menu déroulant sous ‘Server Connections’. **Cliquez sur ‘Connect’** pour afficher les couches qui sont disponibles au serveur. Sélectionnez la couche 3 ‘Reported releases to surface water for 2019’, cochez ‘Only request features…’, et**cliquez ensuite sur ‘Add’** pour ajouter des couches au projet comme on peut le voir ci-dessous :
+Maintenant que les connexions ont été ajoutées à votre profil, vous êtes prêt à télécharger les couches. Pour limiter la demande de données, assurez-vous que votre canevas de carte correspond approximativement aux étendues de la ZI (appuyez sur Ctrl+Maj+F pour faire un zoom sur les étendues du projet). Ouvrez maintenant la fonction ‘Data Source Manager’ de QGIS (Ctrl + L) et sélectionnez ‘ArcGIS Feature Server’. Sélectionnez ‘ECCC_NationalPollutantReleaseInventory_NPRI’ dans le menu déroulant sous ‘Server Connections’. **Cliquez sur ‘Connect’** pour afficher les couches qui sont disponibles au serveur. Sélectionnez la couche 3 ‘Reported releases to surface water for 2019’, cochez ‘Only request features…’, et **cliquez ensuite sur ‘Add’** pour ajouter des couches au projet comme on peut le voir ci-dessous :
 
 .. image:: /_static/tutorials_6_10_1_img_3.jpg
 
