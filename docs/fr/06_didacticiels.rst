@@ -17,7 +17,7 @@ Ce didacticiel guide l'utilisateur en procédant à l'application simple de la m
 6.1.1. Charger les données dans le projet
 ===============================
 
-Télécharger les couches de données pour le didacticiel 1 :
+Télécharger les couches de données pour le didacticiel 1:
 
   • *haz_rast*: les trames d'événement à risque avec prédictions de valeur WSL pour la zone d'étude présentent quatre probabilités.
 
@@ -35,7 +35,7 @@ Assurez-vous que le CRS de votre projet est réglé à ‘EPSG:3005’ (Tout dé
 
 .. image:: /_static/tutorials_6_1_1_tiff.jpg
 
-Explorez les attributs de la couche d'inventaire des biens d'inondation (‘finv’) (F6). Ce que vous verrez devrait ressembler à ce qui suit :
+Explorez les attributs de la couche d'inventaire des biens d'inondation (‘finv’) (F6). Ce que vous verrez devrait ressembler à ce qui suit:
 
 .. image:: /_static/tutorials_6_1_1_table.jpg
 
