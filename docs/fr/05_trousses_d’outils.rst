@@ -188,11 +188,11 @@ Pour prendre en charge un vaste éventail d'analyses de vulnérabilité, l’out
 | Point                  | Default                | WSL                | Default                | WSL :sup:`1`       |
 |                        | [Tutorial 2a]          |                    | [Tutorial 1a]          |                    |
 +------------------------+------------------------+--------------------+------------------------+--------------------+
-| Ligne:sup:`4`          | Sample Statistic       | WSL Statistic      | % inundation,          | % inundation       |  
+| Ligne :sup:`4`         | Sample Statistic       | WSL Statistic      | % inundation,          | % inundation       |  
 |                        | :sup:`3, 5`            |                    | Depth Thresh :sup:`2`  |                    |
 |                        |                        |                    | [Tutorial 4b]          |                    |
 +------------------------+------------------------+--------------------+------------------------+--------------------+
-| Polygone:sup:`4`       | Sample Statistic       | WSL Statistic      | % inundation,          | % inundation       |
+| Polygone :sup:`4`      | Sample Statistic       | WSL Statistic      | % inundation,          | % inundation       |
 |                        | :sup:`3`               |                    | Depth Thresh :sup:`2`  |                    |
 |                        |                        |                    | [Tutorial 4a]          |                    |
 +------------------------+------------------------+--------------------+------------------------+--------------------+
