@@ -21,6 +21,40 @@ La trousse d'outils de construction renferme un éventail d'outils dont on prés
 
 *Tableau 5-1 : Résumé des outils de construction*
 
++-----------------+------------------------+------------------------+-----------------+-------------------+
+| Tab Name        | Tool Name              | Description            | Inputs          | Outputs           |
++=================+========================+========================+=================+===================+
+| Setup           | Start Control File     | Creates a Control      | name and        | Control File      |
+|                 |                        | File template          | precision       | Template          |
++-----------------+------------------------+------------------------+-----------------+-------------------+
+| Inventory       | Inventory Constructor  | Builds a finv          | vector layer,   | inventory vector  |
+|                 |                        | template               | attributes      | layer (‘finv’)    |
++-----------------+------------------------+------------------------+-----------------+-------------------+
+| Inventory       | Vuln. Function Library | GUI for selecting a    |                 | Vulnerability     |
+|                 |                        | Function set           |                 | Function Set      |
++-----------------+------------------------+------------------------+-----------------+-------------------+
+| Inventory       | Inventory Compiler     | Clip and extract finv  | ‘finv’,         | inventory tabular |
+|                 |                        | data to tabular format | parameters      | data (‘finv’)     |
++-----------------+------------------------+------------------------+-----------------+-------------------+
+| Hazard Sampler  | Raster Preparation     | Manipulate hazard      | hazard rasters  | hazard rasters    |
+|                 |                        | rasters                |                 |                   |
++-----------------+------------------------+------------------------+-----------------+-------------------+
+| Hazard Sampler  | Sample Rasters         | Sample hazard raster   | hazard rasters, | exposure dataset  |
+|                 |                        | values                 | ‘finv’, DTM     | ('expos')         |
++-----------------+------------------------+------------------------+-----------------+-------------------+
+| Event Variables | Store Evals            | Write event            | hazard event    | event variables   |
+|                 |                        | probabilities to file  | probabilities   | (‘evals’)         |
++-----------------+------------------------+------------------------+-----------------+-------------------+
+| Conditional P   | Conditional P          | Resolve conditional    | ‘finv’, failure | exposure          |
+|                 |                        | exposure probabilities | polygons        | prob.(‘exlikes’)  |
++-----------------+------------------------+------------------------+-----------------+-------------------+
+| DTM Sampler     | DTM Sampler            | Sample DTM raster at   | ‘finv’, DTM     | ground elevations |
+|                 |                        | asset geometry         |                 | (‘gels’)          |
++-----------------+------------------------+------------------------+-----------------+-------------------+
+| Validation      | Validation             | Validate against       | complete model  |                   |
+|                 |                        | model requirements     | package         |                   |
++-----------------+------------------------+------------------------+-----------------+-------------------+
+
 
 Nom de l’onglet	Nom de l'outil	Description	Intrants	Extrants
 Setup	Start Control File	Crée un modèle de fichier de commande	Nom et précision	Modèle de fichier de commande
