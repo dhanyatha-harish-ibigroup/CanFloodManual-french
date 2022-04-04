@@ -194,7 +194,7 @@ Ouvrez la trousse d'outils ‘Build’ |buildimage|.
 
 **Scenario Setup** (Préparation du scénario)
 
-Sur l’onglet ‘Setup’, configurez la séance de la manière décrite au moyen de vos propres chemins.**Cliquez ensuite sur ‘Start Control File’**:
+Sur l’onglet ‘Setup’, configurez la séance de la manière décrite au moyen de vos propres chemins. **Cliquez ensuite sur ‘Start Control File’**:
 
 .. image:: /_static/tutorials_6_2_2_img_1.jpg
 
