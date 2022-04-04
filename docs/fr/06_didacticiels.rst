@@ -226,7 +226,7 @@ Allez à l’onglet ‘Event Variables’. Vous devriez maintenant voir les 4 é
 
 **Échantillonneur DTM**
 
-Allez à l’onglet ‘DTM Sampler’. Sélectionner la trame ‘dtm_tut2’ et **cliquez ensuite sur ‘Sample DTM** pour générer l'ensemble de données d’élévation du terrain (‘gels’) dans votre répertoire de travail et créer une référence à cet ensemble dans le fichier de commande.
+Allez à l’onglet ‘DTM Sampler’. Sélectionner la trame ‘dtm_tut2’ et **cliquez ensuite sur ‘Sample DTM’** pour générer l'ensemble de données d’élévation du terrain (‘gels’) dans votre répertoire de travail et créer une référence à cet ensemble dans le fichier de commande.
 
 **Validation** (Validation)
 
