@@ -634,6 +634,20 @@ Le table5-11_ résume le traitement des événements à risque en fonction du no
 .. _Table5-11:
 
 *Tableau 5-11 : Traitement de l'événement à risque en fonction du nombre d'événements de défaillance.*
+
++-------------------+-------+----------------------------+----------------------+
+| Type              | Count | Treatment :sup:`1`         | Example (Figure5-5_) |
++===================+=======+============================+======================+
+| trivial           | 0     | E(X)fail=0                 | e3                   |
+|                   |       | E(X)nofail from equation 2 |                      |
++-------------------+-------+----------------------------+----------------------+
+| simple            | 1     | ‘max’ or ‘mutEx’           | e2                   |
++-------------------+-------+----------------------------+----------------------+
+| complex           | >1    | ‘max’, ‘mutEx’ or ‘indep’  | e1                   |
++-------------------+-------+----------------------------+----------------------+
+| 1) See Table5-12_ |       |                                                   |
++-------------------+-------+----------------------------+----------------------+
+
 Type	Nombre	Traitement	Exemple (figure 5-5)
 Trivial	0	E(X)fail=0 E(X)nofail de l’équation 2	e3
 Simple	1	‘max’ ou ‘mutEx’	e2
