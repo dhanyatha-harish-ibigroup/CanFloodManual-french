@@ -4,6 +4,44 @@
 Annexe A: Connexions Web
 =============================
 
++---------------+--------------------------------------------------------+----------------------+------------------+
+| Acronym       | Description                                            | Service              | Reference        |
++===============+========================================================+======================+==================+
+| UNISDR_GAR15_GlobalRiskAssessment                                                                                |
++---------------+--------------------------------------------------------+----------------------+------------------+
+| GAR15         | UNISDR’s data layers from the global risk assessment   | WCS                  | see below        | 
+|               | conducted for the Global Assessment Report on          |                      |                  |
+|               | Disaster Risk Reduction 2015 (GAR15) by the CIMA       |                      |                  |
+|               | Research Foundation. This data is hosted by the        |                      |                  |
+|               | Global Risk Data Platform and contains six global      |                      |                  | 
+|               | flood depth rasters (in cm; return periods = 25, 50,   |                      |                  |
+|               | 100, 200, 500, 1000 years) having 1km resolution.      |                      |                  |
++---------------+--------------------------------------------------------+----------------------+------------------+
+| ECCC_NationalPollutantReleaseInventory_NPRI                                                                      |
++---------------+--------------------------------------------------------+----------------------+------------------+
+| NPRI          | Government of Canada’s service to collect information  | ArcGisFeatureServer  | `homepage`_      | 
+|               | on the release, disposal and transfer of more than 320 |                      |                  |
+|               | substances. The web-service provides release reports   |                      |                  |
+|               | from the most recent year. The layer ‘NPRI-Reporting   |                      |                  |
+|               | Facilities’ shows the location of facilitates          |                      |                  | 
+|               | reporting any type of release.                         |                      |                  |
++---------------+--------------------------------------------------------+----------------------+------------------+
+| NRCan_NationalHumanSettlementLayer_NHSL                                                                          |
++---------------+--------------------------------------------------------+----------------------+------------------+
+| NHSL          | Collection of thematic datasets that describe the      | ArcGisFeatureServer  | `MapServer`_     | 
+|               | physical, social and economic characteristics of       |                      |                  |
+|               | urban centres and rural/remote communities across      |                      |                  |
+|               | Canada, and their vulnerability to natural hazards     |                      |                  |
+|               | of concern                                             |                      |                  | 
++---------------+--------------------------------------------------------+----------------------+------------------+
+| NRCan_AutomaticallyExtractedBuildings                                                                            |
++---------------+--------------------------------------------------------+----------------------+------------------+
+|               | Topographical feature class that delineates            | WMS                  | `Open Canada`_   | 
+|               | polygonal building footprints automatically            |                      |                  |
+|               | extracted from airborne Lidar data, high-resolution    |                      |                  |
+|               | optical imagery or other sources.                      |                      |                  |
++---------------+--------------------------------------------------------+----------------------+------------------+
+
 Acronyme	Description	Service	Référence 
 UNISDR_GAR15_GlobalRiskAssessment		
 GAR15	Couches de données de l’UNISDR provenant de l'évaluation du risque global réalisée pour le Rapport d'évaluation globale sur la réduction du risque de catastrophe 2015 (GAR15) par la CIMA Research Foundation. Ces données sont hébergées par la plate-forme de données de risque global et renferment six trames de profondeur d'inondation globale (en cm; périodes de retour = 25, 50, 100, 200, 500, 1000 ans) présentant une résolution de 1 km.	WCS	Voir ci-dessous.
