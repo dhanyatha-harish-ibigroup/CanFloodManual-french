@@ -575,7 +575,7 @@ Allez à l’onglet ‘Inventory’. Assurez-vous que le paramètre ‘Elevation
 
 **Hazard Sampler** (Échantillonneur de risque)
 
-Allez à l'outil ‘Hazard Sampler’. Chargez ensuite les quatre trames de danger dans la fenêtre de dialogue, cochez ‘Box plots’ et, sous la configuration d'exposition, sélectionnez ‘Area-Thresholld’ en tant que type, réglez le paramètre ‘Depth Threshold’ à 0,5 et sélectionnez la couche DTM tel qu'indiqué :
+Allez à l'outil ‘Hazard Sampler’. Chargez ensuite les quatre trames de danger dans la fenêtre de dialogue, cochez ‘Box plots’ et, sous la configuration d'exposition, sélectionnez ‘Area-Thresholld’ en tant que type, réglez le paramètre ‘Depth Threshold’ à 0.5 et sélectionnez la couche DTM tel qu'indiqué :
 
 .. image:: /_static/tutorials_6_8_1_img_1.jpg
 
@@ -583,7 +583,7 @@ Allez à l'outil ‘Hazard Sampler’. Chargez ensuite les quatre trames de dang
 
 .. image:: /_static/tutorials_6_8_1_img_2.jpg
 
-Ces valeurs représentent le pourcentage calculé de chaque polygone présentant une inondation supérieure au seuil de profondeur indiqué (0,5 m). Les tracés de boîte qui ont été créés présentent des données sous forme graphique :
+Ces valeurs représentent le pourcentage calculé de chaque polygone présentant une inondation supérieure au seuil de profondeur indiqué (0.5 m). Les tracés de boîte qui ont été créés présentent des données sous forme graphique :
 
 .. image:: /_static/tutorials_6_8_1_img_3.jpg
 
@@ -625,35 +625,35 @@ Cliquez sur **‘Join’**. Vous devriez voir une nouvelle couche vectorielle de
 .. image:: /_static/tutorials_6_8_3_img_3.jpg
 
 ***********************************************************
-6,9. Didacticiel 4b: Risque (L1) avec pourcentage d’inondation (Lignes)
+6.9. Didacticiel 4b: Risque (L1) avec pourcentage d’inondation (Lignes)
 ***********************************************************
 
 À l’instar du didacticiel 4a, celui-ci démontre une analyse du risque où le paramètre d’impact est le pourcentage d'inondation, mais avec des géométries en ligne plutôt que des polygones. Cette façon de faire peut être utile pour analyser le risque d'inondation de biens linéaires, comme les routes.
 
-Chargez les mêmes couches de données du dossier  ‘tutorials\4\data\’, en ajoutant :
+Chargez les mêmes couches de données du dossier  ‘tutorials\4\data\’, en ajoutant:
 
   • *finv_tut4b_lines.gpkg*
 
 Suivez toutes les étapes décrites dans le didacticiel 4a, mais avec cette nouvelle couche d'inventaire de bien (‘finv’).
 
-Les résultats pour chaque bien devraient ressembler à ce qui suit :
+Les résultats pour chaque bien devraient ressembler à ce qui suit:
 
 .. image:: /_static/tutorials_6_9_img_1.jpg
 
 Les premières colonnes ‘impact’ sans index représentent les événements dangereux, alors que les valeurs montrent le pourcentage d'inondation de chaque segment multiplié par sa valeur ‘f0_scale’. Cela pourrait représenter les mètres inondés (au-dessus du seuil de profondeur de 0,5 m) par segment, si la valeur ‘f0_scale’ représente la longueur du segment (comme c’est le cas avec l'inventaire du didacticiel). Ou encore, la valeur ‘f0_scale’ pourrait être réglée à ‘1.0’ pour toutes les caractéristiques, de sorte que les valeurs reflèteraient simplement le % d'inondation de chaque segment (reflétant ainsi l’extrant de l'outil d’échantillonneur de risque), alors que la dernière colonne calculerait le pourcentage annuel attendu d'inondation du segment.
 
 ************************************************
-6,10. Didacticiel 5a: Risque (L1) de l’INRP et de GAR15
+6.10. Didacticiel 5a: Risque (L1) de l’INRP et de GAR15
 ************************************************
 
-Ce didacticiel démontre la façon de créer un modèle de ‘Risk (L1)’ CanFlood à partir de deux sources sur le Web :
+Ce didacticiel démontre la façon de créer un modèle de ‘Risk (L1)’ CanFlood à partir de deux sources sur le Web:
 
-  • Inventaire national des rejets de polluants (INRP) <https://www.canada.ca/en/services/environment/pollution-waste-management/national-pollutant-release-inventory.html>`__; et
+  • `Inventaire national des rejets de polluants (INRP) <https://www.canada.ca/en/services/environment/pollution-waste-management/national-pollutant-release-inventory.html>`__; et
   • `L’évaluation globale du risque d'inondation GAR15 Atlas <https://preview.grid.unep.ch/index.php?preview=home&lang=eng>`__ (Voir Rudari and Silvestro (2015) pour connaître les détails du modèle de risque d'inondation GAR15).
 
-Pour en apprendre davantage sur ces ensembles de données, voir :ref:`Appendix A <appendix_a>`.
+Pour en apprendre davantage sur ces ensembles de données, voir :ref:`Annexe A <appendix_a>`.
 
-Ce didacticiel porte sur les données présentant des CRS disparates, de sorte que les utilisateurs devraient connaître la manière propre à QGIS de traiter le projet et le CRS de couche qu’on aborde ici <https://docs.qgis.org/3.10/en/docs/user_manual/working_with_projections/working_with_projections.html>`__.
+Ce didacticiel porte sur les données présentant des CRS disparates, de sorte que les utilisateurs devraient connaître la manière propre à QGIS de traiter le projet et le CRS de couche qu’on aborde `ici <https://docs.qgis.org/3.10/en/docs/user_manual/working_with_projections/working_with_projections.html>`__.
 
 6.10.1. Charger les données dans le projet
 ============================
