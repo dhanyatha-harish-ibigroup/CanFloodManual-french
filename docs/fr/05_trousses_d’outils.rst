@@ -883,7 +883,7 @@ Lors de l'application de l'outil de cartographie de fragilité des digues à vot
 
 L’outil ‘Add Connections’ de CanFlood |addConnectionsImage| ajoute un ensemble déjà compilé de ressources Web au profil QGIS d’un utilisateur pour faciliter l’accès et pour la configuration (comme l’ajout de justificatifs d'identité). L’ensemble de ressources Web ajouté par cet outil est configuré dans le fichier ‘canflood\_pars\WebConnections.ini’ (répertoire de plugins de l'utilisateur). La :ref:`Appendix A <appendix_a>` comporte un résumé des connexions Web ajoutées par cet outil.
 
-On explique, dans le Guide de l'utilisateur de QGIS <https://docs.qgis.org/3.10/en/docs/user_manual/working_with_ogc/ogc_client_support.html#wms-wmts-client>`__ la façon de gérer ces connexions et d’y accéder. Après avoir ajouté les ressources à un profil d'utilisateur, deux méthodes de base peuvent être utilisées pour ajouter les données au projet.
+On explique, dans le `Guide de l'utilisateur de QGIS <https://docs.qgis.org/3.10/en/docs/user_manual/working_with_ogc/ogc_client_support.html#wms-wmts-client>`__ la façon de gérer ces connexions et d’y accéder. Après avoir ajouté les ressources à un profil d'utilisateur, deux méthodes de base peuvent être utilisées pour ajouter les données au projet.
 
   • **Browser Panel**: (Tableau de navigateur) Il s’agit de la méthode la plus simple, mais elle ne permet pas de préciser la demande de données. Sur le tableau du navigateur, développer le type d’intérêt du fournisseur (par exemple, ArcGisFeatureServer) > développer la connexion d’intérêt > sélectionner la couche d’intérêt > faire un clic droit > ajouter une couche au projet.
 
