@@ -661,6 +661,32 @@ Le Table5-12_ contient un résumé des algorithmes mis en place par CanFlood pou
 .. _Table5-12:
 
 *Table5-12: Algorithmes de valeur attendue pour les événements de défaillance.*
+
++---------------------+----------+--------------------------------------------------------------------+
+| name                | Count    | summary                                                            |
++=====================+==========+====================================================================+
+| Modified Maximum    | max      | .. image:: /_static/toolsets_model_table_5_12_eq_1.jpg             |
+|                     |          |                                                                    |
++---------------------+----------+--------------------------------------------------------------------+
+| Mutually Exclusive  | mutEx    | .. image:: /_static/toolsets_model_table_5_12_eq_2.jpg             |
+|                     |          |                                                                    |
++---------------------+----------+--------------------------------------------------------------------+
+| Independent         | indep    | a) Construct a matrix of all possible failure event combinations   |  
+|                     |          |    (positives=1 and negatives=0)                                   |
+|                     |          |                                                                    |
+|                     |          | b) Substitute matrix values with P and (1-P)                       |
+|                     |          |                                                                    |
+|                     |          | c) Multiply the set to obtain the probability of the combination   |
+|                     |          |    (P :sub:`comb`)                                                 |
+|                     |          |                                                                    | 
+|                     |          | d) Multiply P :sub:`comb` by the maximum impact of events within   |
+|                     |          |    the set to obtain the combination’s impact (C :sub:`comb`)      |
+|                     |          |                                                                    |
+|                     |          | e) .. image:: /_static/toolsets_model_table_5_12_eq_3.jpg          |         
++---------------------+----------+--------------------------------------------------------------------+
+| P(o) = 1-sum(C :sub:`i`)                                                                            |
++-----------------------------------------------------------------------------------------------------+
+
 Nom	Nombre	Résumé
 Maximum modifié	Max	
 Mutuellement exclusifs	mutEx	
