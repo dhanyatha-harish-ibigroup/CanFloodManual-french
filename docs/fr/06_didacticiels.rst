@@ -305,13 +305,13 @@ Ces tracés représentent les deux formats standard de courbe de risque pour les
    :width: 28
 
 *********************************************
-6,3. Didacticiel 2b: Risque (L2) avec bris de digue
+6.3. Didacticiel 2b: Risque (L2) avec bris de digue
 *********************************************
 
 Les utilisateurs devraient terminer premièrement les didacticiels 1 et 2a. Le didacticiel 2b fait appel aux mêmes quotas que le 2a, mais on élabore davantage l'analyse pour démontrer l'analyse de risque de bris d’une levée simple en intégrant un seul événement de bris d’accompagnement au modèle. Cet événement de bris d’accompagnement comporte deux couches :
 
   • *haz_1000_fail_A_tut2*: ‘Failure raster’ indiquant le WSL qui serait réalisé si certains des segments de la levée devaient se briser pendant l'événement; et
-  • *haz_1000_fail_A_tut2*: Couche du polygone de probabilité d'exposition conditionnelle présentant les caractéristiques indiquant l’ampleur et la probabilité de bris de chaque segment de levée lors d’une inondation (« polygones de bris »). Remarquez que cette couche renferme deux caractéristiques qui se recoupent à certains endroits, correspondant ainsi aux inondations possibles des deux sites de bris du système de levée. Cette couche sera utilisée pour informer CanFlood du moment et de la façon d'échantillonner la trame du bris.
+  • *haz_1000_fail_A_tut2*: Couche du polygone de probabilité d'exposition conditionnelle présentant les caractéristiques indiquant l’ampleur et la probabilité de bris de chaque segment de levée lors d’une inondation ('polygones de bris'). Remarquez que cette couche renferme deux caractéristiques qui se recoupent à certains endroits, correspondant ainsi aux inondations possibles des deux sites de bris du système de levée. Cette couche sera utilisée pour informer CanFlood du moment et de la façon d'échantillonner la trame du bris.
 
 Cette simplification en utilisant ces deux couches facilite la détermination de plusieurs probabilités de bris, mais dans les cas où un bris (ou une combinaison de bris) présenterait le même WSL (:ref:`Section5.1.5 <Section5.1.5>`’s ‘complex conditionals’). Assurez-vous que ces couches sont chargées dans le même projet QGIS que celui qu’on a utilisé pour le didacticiel 2a.
 
