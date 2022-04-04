@@ -563,6 +563,24 @@ L’outil ‘Risk (L2) de CanFlood a été conçu pour procéder à une évaluat
 Les exigences en ce qui concerne l'ensemble du modèle pour l'outil Risk (L2) sont résumées dans le tableau suivant :
 
 *Tableau 5-10 : Exigences en ce qui concerne l'ensemble du modèle pour l'outil Risk (L2).*
+
++------------------------+----------------------------+--------------------+---------+-------------+
+| Name                   | Description                | Build Tool         | Code    | Reqd.       |
++========================+============================+====================+=========+=============+
+| Control File           | Data file paths and        | Start Control File |         | yes         |
+|                        | parameters                 |                    |         |             |
++------------------------+----------------------------+--------------------+---------+-------------+
+| Event Probabilities    | Probability of each        | Event Variables    | evals   | yes         |
+|                        | hazard event               |                    |         |             |
++------------------------+----------------------------+--------------------+---------+-------------+
+| Exposure Probabilities | Conditional probability of | Conditional P      | exlikes | for failure |
+|                        | each asset realizing the   |                    |         |             |
+|                        | failure raster             |                    |         |             |
++------------------------+----------------------------+--------------------+---------+-------------+
+| Total impacts          | Output of Impacts          | N/A                | dmgs    | yes         |
+|                        | (L2) model                 |                    |         |             |
++------------------------+----------------------------+--------------------+---------+-------------+
+
 Nom 	Description	Outil de construction	Code	Nécessaire
 Fichier de commande	Chemins et paramètres du fichier de données	Start Control File		Oui
 Probabilité de l'événement	Probabilité de chaque événement à risque	Event Variables	Evals	Oui
