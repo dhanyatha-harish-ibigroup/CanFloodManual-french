@@ -478,7 +478,7 @@ L’outil de résultats ‘Compare’ peut être utilisé pour montrer l’influ
 .. image:: /_static/tutorials_6_5_3_img_1.jpg
 
 ***************************************
-6,6. Didacticiel 2e: Analyse des coûts-avantages
+6.6. Didacticiel 2e: Analyse des coûts-avantages
 ***************************************
 
 Ce didacticiel fait la démonstration des outils d'analyse des coûts-avantages (ACA) de CanFlood pour soutenir la version de  base de cette analyse pour les interventions lors du risque d'inondation, comme les mesures d'atténuation qu’on a examinées dans le didacticiel précédent. Avant de poursuivre avec ce didacticiel, les utilisateurs devraient avoir terminé et disposer des résultats du didacticiel 2a (ou encore, il est possible d’utiliser le ‘tut2d_noMiti’ du didacticiel 2d) et 2d :
@@ -501,16 +501,16 @@ Cliquez maintenant sur ‘Open’ pour éditer le cahier d'exercices de l'ACA. V
 Allez maintenant à l’onglet ‘data’ dans le cahier d'exercices pour inscrire les données des avantages-coûts que présentent les mesures d'atténuation présentées dans le didacticiel 2d. Pour ce didacticiel, présumons que nous avons établi les paramètres suivants pour cette intervention :
 
   • L’installation des PLPM prendra 2 ans au coût de 1 million de dollars par année et assurera une protection pendant 100 ans;
-  • L’entretien coûtera 1 000 $ par année dès la fin des travaux de construction et il en sera ainsi tout au long du cycle de vie de 100 ans de l'intervention;
+  • L’entretien coûtera 1000 $ par année dès la fin des travaux de construction et il en sera ainsi tout au long du cycle de vie de 100 ans de l'intervention;
   • Les avantages relatifs et les coûts d'entretien resteront inchangés dans le temps.
 
 Les deux rangées d’EAD sur l’onglet ‘data’ devraient se remplir automatiquement à partir des valeurs inscrites sur l’onglet ‘smry’, mais pour respecter les hypothèses évoquées ci-dessus, nous devons ajuster certaines de ces valeurs de la manière indiquée pour les six premières années de l’onglet ‘data’ :
 
 .. image:: /_static/tutorials_6_6_img_3.jpg
 
-Remarquez que la première année des EAD ‘baseline’ et ‘option’ sont vides, ce qui signifie qu’on n’a encore tiré aucun avantage. Cependant, la deuxième année nous montre que la moitié des avantages seront réalisés. Les coûts d'entretien de 1 000 $ par année devraient s’étendre sur les 100 années (c'est-à-dire qu’on doit les copier/coller dans toutes les cellules vers la droite – ce qu’on ne voit pas).
+Remarquez que la première année des EAD ‘baseline’ et ‘option’ sont vides, ce qui signifie qu’on n’a encore tiré aucun avantage. Cependant, la deuxième année nous montre que la moitié des avantages seront réalisés. Les coûts d'entretien de 1000 $ par année devraient s’étendre sur les 100 années (c'est-à-dire qu’on doit les copier/coller dans toutes les cellules vers la droite – ce qu’on ne voit pas).
 
-Une fois l’onglet ‘data’ terminé, un rapport des A/C de 1,18 devrait apparaître sur l’onglet ‘smry’ (si vous obtenez un rapport A/C de 1,9, assurez-vous que les coûts d'entretien de 1 000 $ sont inscrits pour chacune des années du cycle de vie). Sauvegardez et fermez ce chiffrier.
+Une fois l’onglet ‘data’ terminé, un rapport des A/C de 1,18 devrait apparaître sur l’onglet ‘smry’ (si vous obtenez un rapport A/C de 1,9, assurez-vous que les coûts d'entretien de 1000 $ sont inscrits pour chacune des années du cycle de vie). Sauvegardez et fermez ce chiffrier.
 
 **Plot Financials** (Tracé des données financières)
 
@@ -535,7 +535,7 @@ Remarquez que le paramètre ‘payback year’ est resté inchangé, mais que la
 
 
 **************************************************************
-6,8. Didacticiel 4a: Risque (L1) avec pourcentage d’inondation (Polygones)
+6.8. Didacticiel 4a: Risque (L1) avec pourcentage d’inondation (Polygones)
 **************************************************************
 
 Ce didacticiel démontre une analyse du risque des biens de type polygone lorsque le paramètre d’impact est un pourcentage d'inondation plutôt qu’une profondeur. Cela peut être utile pour une modélisation grossière du risque ou pour des biens, comme des champs agricoles dont il est possible de calculer la perte de manière raisonnable à partir du pourcentage du bien qui est inondé.
