@@ -216,7 +216,7 @@ Vous devriez maintenant voir le fichier csv d'inventaire enregistré dans le ré
 
 **Hazard Sampler** (Échantillonneur de risque)
 
-Allez à l’onglet ‘Hazard Sampler’. Assurez-vous que les quatre trames de risque apparaissent dans la fenêtre et que tous les autres champs présentent la valeur par défaut. **Cliquez ensuite sur 'Sample Rasters’**. Vous devriez maintenant voir le fichier de données ‘expos’ créé dans le répertoire de travail.
+Allez à l’onglet ‘Hazard Sampler’. Assurez-vous que les quatre trames de risque apparaissent dans la fenêtre et que tous les autres champs présentent la valeur par défaut. **Cliquez ensuite sur ‘Sample Rasters’**. Vous devriez maintenant voir le fichier de données ‘expos’ créé dans le répertoire de travail.
 
 **Event Variables** (Variables d'événement)
 
