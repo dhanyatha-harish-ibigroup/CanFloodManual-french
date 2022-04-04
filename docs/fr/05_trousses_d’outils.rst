@@ -283,12 +283,21 @@ Pour les conditionnels complexes, l'outil ‘Conditional P’ présente deux alg
 
 *Tableau 5-5 : Algorithmes de résolution de polygone de probabilité d'exposition conditionnelle pour un conditionnel complexe*
 
-Relation	Résumé de l’algorithme
-Mutuellement exclusive	
-Indépendante 1	
-Où P(X) représente la probabilité de défaillance résolue pour un seul bien sur un événement donné, alors que P(i) représente la valeur probable de défaillance échantillonnée à partir d’une caractéristique d’un polygone de défaillance.
-1.	Bedford and Cooke (2001)
-
++-------------------+-------------------------------------------------------------+
+| Relation          | Résumé de l’algorithme                                      | 
++===================+=============================================================+
+| Mutuellement      | .. image:: /_static/algorithm_summary_1.jpg                 | 
+| exclusive         |                                                             |                     
++-------------------+------------------+------------------------------------------+
+| Indépendante      | .. image:: /_static/algorithm_summary_2.jpg                 | 
+| :sup:`1`          |                                                             |  
++-------------------+------------------+------------------------------------------+
+| Où P(X) représente la probabilité de défaillance résolue pour un seul bien sur  |
+| un événement donné, alors que P(i) représente la valeur probable de défaillance |                       
+| échantillonnée à partir d’une caractéristique d’un polygone de défaillance.     |  
+|                                                                                 |                     
+| 1) Bedford and Cooke (2001)                                                     |                       
++-------------------+------------------+------------------------------------------+
 
 5.1.6. DTM Sampler (Échantillonneur DTM)
 ==================
