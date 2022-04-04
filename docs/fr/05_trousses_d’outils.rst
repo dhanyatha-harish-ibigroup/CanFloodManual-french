@@ -312,7 +312,7 @@ L’outil de validation effectue une série de vérifications sur le fichier de 
 .. _Section5.2:
 
 **********
-5,2. Modèle
+5.2. Modèle
 **********
 
 .. image:: /_static/run_image.jpg
