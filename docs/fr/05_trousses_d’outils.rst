@@ -894,7 +894,7 @@ Plusieurs plugins et outils utilisés par QGIS (et CanFlood) ne prennent pas en 
 5.4.3. RFDA Converter (Convertisseur RFDA)
 =====================
 
-L’outil d’évaluation rapide des dommages causés par une inondation (RFDA) a été développé par la province de l’Alberta en 2014 en tant que plugin QGIS 2. Le RFDA ne comprend aucune analyse spatiale ni aucun calcul des risques. Les inventaires du RFDA sont présentés dans un format de chiffrier Excel (.xls) indexé en fonction de leur position dans la colonne (et non des étiquettes). Les courbes sont étiquetées par rapport aux biens par une concaténation des colonnes 11 et 12. Plusieurs colonnes de l'inventaire sont ignorées dans le RFDA. Il s’agit des colonnes fonctionnelles :
+L’outil d’évaluation rapide des dommages causés par une inondation (RFDA) a été développé par la province de l’Alberta en 2014 en tant que plugin QGIS 2. Le RFDA ne comprend aucune analyse spatiale ni aucun calcul des risques. Les inventaires du RFDA sont présentés dans un format de chiffrier Excel (.xls) indexé en fonction de leur position dans la colonne (et non des étiquettes). Les courbes sont étiquetées par rapport aux biens par une concaténation des colonnes 11 et 12. Plusieurs colonnes de l'inventaire sont ignorées dans le RFDA. Il s’agit des colonnes fonctionnelles:
 
   • 0:'id1',
   • 10:'class',
