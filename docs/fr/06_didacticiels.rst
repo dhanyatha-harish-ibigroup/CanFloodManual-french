@@ -685,7 +685,7 @@ Remarquez que ces connexions resteront dans votre profil en vue des prochaines s
 
 **Download NPRI Data** (Télécharger les données de l’INRP)
 
-Maintenant que les connexions ont été ajoutées à votre profil, vous êtes prêt à télécharger les couches. Pour limiter la demande de données, assurez-vous que votre canevas de carte correspond approximativement aux étendues de la ZI (appuyez sur Ctrl+Maj+F pour faire un zoom sur les étendues du projet). Ouvrez maintenant la fonction ‘Data Source Manager’ de QGIS (Ctrl + L) et sélectionnez ‘ArcGIS Feature Server’. Sélectionnez ‘ECCC_NationalPollutantReleaseInventory_NPRI’ dans le menu déroulant sous ‘Server Connections’. **Cliquez sur ‘Connect’** pour afficher les couches qui sont disponibles au serveur. Sélectionnez la couche 3 ‘Reported releases to surface water for 2019’, cochez ‘Only request features…’, et **cliquez ensuite sur ‘Add’** pour ajouter des couches au projet comme on peut le voir ci-dessous :
+Maintenant que les connexions ont été ajoutées à votre profil, vous êtes prêt à télécharger les couches. Pour limiter la demande de données, assurez-vous que votre canevas de carte correspond approximativement aux étendues de la ZI (appuyez sur Ctrl+Maj+F pour faire un zoom sur les étendues du projet). Ouvrez maintenant la fonction ‘Data Source Manager’ de QGIS (Ctrl + L) et sélectionnez ‘ArcGIS Feature Server’. Sélectionnez ‘ECCC_NationalPollutantReleaseInventory_NPRI’ dans le menu déroulant sous ‘Server Connections’. **Cliquez sur ‘Connect’** pour afficher les couches qui sont disponibles au serveur. Sélectionnez la couche 3 ‘Reported releases to surface water for 2019’, cochez ‘Only request features…’, et **cliquez ensuite sur ‘Add’** pour ajouter des couches au projet comme on peut le voir ci-dessous:
 
 .. image:: /_static/tutorials_6_10_1_img_3.jpg
 
@@ -693,7 +693,7 @@ Vous devriez maintenant voir une couche de points vectoriels ajoutée à votre p
 
 **Téléchargez les données GAR15**
 
-Utilisez une méthode comparable pour procéder au téléchargement (tout dépendant de votre connexion Internet, ce processus peut être lent. On recommande de régler le paramètre ‘Cache’=’Prefer cache’ pour limiter les transferts de données additionnels et pour désactiver les couches ou pour neutraliser le rendu une fois chargé dans le projet) les couches suivantes de ‘UNISDR_GAR15_GlobalRiskAssessment’ sous l’onglet ‘WCS’ tel qu'indiqué ci-dessous :
+Utilisez une méthode comparable pour procéder au téléchargement (tout dépendant de votre connexion Internet, ce processus peut être lent. On recommande de régler le paramètre ‘Cache’=’Prefer cache’ pour limiter les transferts de données additionnels et pour désactiver les couches ou pour neutraliser le rendu une fois chargé dans le projet) les couches suivantes de ‘UNISDR_GAR15_GlobalRiskAssessment’ sous l’onglet ‘WCS’ tel qu'indiqué ci-dessous:
 
   • GAR2015:flood_hazard_200_yrp
   • GAR2015:flood_hazard_100_yrp
@@ -703,7 +703,7 @@ Utilisez une méthode comparable pour procéder au téléchargement (tout dépen
 
 .. image:: /_static/tutorials_6_10_1_img_4.jpg
 
-Vous devrez charger une couche à la fois et le message ‘Select Transformation’ pourrait apparaître (vous pouvez sélectionner en toute sécurité la transformation de votre choix ou fermer le dialogue. Ces transformations peuvent être affichées seulement. Nous reviendrons à la transformation des données sur notre CRS ci-dessous). Après avoir terminé, votre canevas devrait ressembler à ce qui suit :
+Vous devrez charger une couche à la fois et le message ‘Select Transformation’ pourrait apparaître (vous pouvez sélectionner en toute sécurité la transformation de votre choix ou fermer le dialogue. Ces transformations peuvent être affichées seulement. Nous reviendrons à la transformation des données sur notre CRS ci-dessous). Après avoir terminé, votre canevas devrait ressembler à ce qui suit:
 
 .. image:: /_static/tutorials_6_10_1_img_5.jpg
 
@@ -741,7 +741,7 @@ Vous devriez voir cinq nouvelles trames chargées dans votre canevas (avec le su
 .. _Section6.11:
 
 ****************************************
-6,11. Didacticiel 6a: o Polygone de bris de digue :
+6.11. Didacticiel 6a: o Polygone de bris de digue:
 ****************************************
 
 Le didacticiel démontre la façon de générer des polygones de bris à partir des renseignements sur une digue type au moyen de l'outil ‘Dike Fragility Mapper’ de CanFlood (:ref:`Section5.4.1 <Section5.4.1>`). Avant de suivre ce didacticiel, les utilisateurs devraient connaître les types de données des événements à risque qu’on décrit dans :ref:`Section4.2 <Section4.2>` (en particulier les polygones de défaillance) dont on a besoin pour les modèles de risque (L1) et (L2) qui présentent une certaine défaillance. Commencez en téléchargeant les données du didacticiel à partir du dossier `tutorials\6 <https://github.com/IBIGroupCanWest/CanFlood/tree/master/tutorials/6>`__ et téléchargez-les dans un nouveau projet QGIS :
