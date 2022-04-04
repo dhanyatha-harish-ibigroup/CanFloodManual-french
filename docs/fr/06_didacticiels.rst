@@ -158,7 +158,7 @@ Notez les six champs d’impact (entourés de rouge ci-dessous) dont les noms on
 .. _Section6.2:
 
 **********************************************
-6,2. Didacticiel 2a: Risque (L2) avec des événements simples
+6.2. Didacticiel 2a: Risque (L2) avec des événements simples
 **********************************************
 
 Le didacticiel 2 fait la démonstration du modèle de ‘Risque (L2) de CanFlood (:ref:`Section5.2.3 <Section5.2.3>`). Cela reprend une évaluation plus détaillée du risque, alors qu’on connaît la vulnérabilité de chaque bien qui est décrite en fonction de la profondeur d'inondation (plutôt que de la simple présence binaire d’une inondation comme dans le didacticiel 1). Ce didacticiel fait également la démonstration d’un inventaire présentant des hauteurs ‘relatives’ et la caractéristique de fonction de vulnérabilité composite de CanFlood lorsque plusieurs fonctions sont appliquées au même bien.
