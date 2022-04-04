@@ -396,13 +396,13 @@ Pour explorer l’influence du paramètre ‘event_rels’, ouvrez le fichier de
 6.4.3. Afficher les résultats
 ===================
 
-Après avoir exécuté le modèle ‘Risk (L2) pour les fichiers de commande ‘event_rels=mutEx’ et ‘event_rels=max’ , deux séries de fichiers d’extrants comparables devraient avoir été produites dans les deux répertoires d’extrants séparés qu’on a précisés lors de la configuration du modèle. Pour visualiser la différence entre ceux deux configurations du modèle, **ouvrez la trousse d'outils ‘Results’** et sélectionnez un répertoire de travail, ainsi que le fichier de commande ‘event_rels=mutEx’ original comme étant le fichier de commande principal sur l’onglet ‘Setup’. (Le fichier de commande indiqué sur l’onglet ‘Setup’ sera utilisé pour les styles de tracés communs (par exemple). Avant de générer des fichiers de comparaison, configurez le style de tracé en ouvrant le même fichier de commande principal et en modifiant les paramètres ‘[plotting]’ suivants :
+Après avoir exécuté le modèle ‘Risk (L2) pour les fichiers de commande ‘event_rels=mutEx’ et ‘event_rels=max’ , deux séries de fichiers d’extrants comparables devraient avoir été produites dans les deux répertoires d’extrants séparés qu’on a précisés lors de la configuration du modèle. Pour visualiser la différence entre ceux deux configurations du modèle, **ouvrez la trousse d'outils ‘Results’** et sélectionnez un répertoire de travail, ainsi que le fichier de commande ‘event_rels=mutEx’ original comme étant le fichier de commande principal sur l’onglet ‘Setup’. (Le fichier de commande indiqué sur l’onglet ‘Setup’ sera utilisé pour les styles de tracés communs (par exemple). Avant de générer des fichiers de comparaison, configurez le style de tracé en ouvrant le même fichier de commande principal et en modifiant les paramètres ‘[plotting]’ suivants:
 
   • ‘color = red’
   • ‘linestyle = solid’
   • ‘impactfmt_str = ,.0f’
 
-Pour générer un tracé de comparaison de ces deux scénarios, allez à l’onglet ‘Compare/Combine’, sélectionnez le fichier de commande des deux configurations de modèles créées à l'étape précédente et assurez-vous que l'option ‘Control Files’ est cochée sous ‘Comparison Controls’, de la manière décrite ci-dessous.
+Pour générer un tracé de comparaison de ces deux scénarios, allez à l’onglet ‘Compare/Combine’, sélectionnez le fichier de commande des deux configurations de modèles créées à l'étape précédente et assurez-vous que l'option ‘Control Files’ est cochée sous ‘Comparison Controls’, de la manière décrite ci-dessous:
 
 .. image:: /_static/tutorials_6_4_3_img_1.jpg
 
@@ -419,12 +419,12 @@ Sur le tracé de comparaison (présenté ci-dessous), remarquez que la différen
 
 .. image:: /_static/tutorials_6_4_3_img_3.jpg
 
-En exécutant de nouveau l'outil de comparaison des quatre fichiers de commande du didacticiel 2 qu’on a créés jusqu’à présent, on obtient ce qui suit :
+En exécutant de nouveau l'outil de comparaison des quatre fichiers de commande du didacticiel 2 qu’on a créés jusqu’à présent, on obtient ce qui suit:
 
 .. image:: /_static/tutorials_6_4_3_img_4.jpg
 
 *******************************************
-6,5. Didacticiel 2d: Risque (L2) avec mesure d'atténuation
+6.5. Didacticiel 2d: Risque (L2) avec mesure d'atténuation
 *******************************************
 
 On recommande aux utilisateurs de terminer premièrement le didacticiel 2a avant d’aller plus loin. Le didacticiel 2d fait appel aux mêmes données d’entrée que le 2a, mais on y présente une analyse plus élaborée pour démontrer les mesures d'atténuation de niveau d'intégration des objets (ou des biens) dans le modèle. Cela peut être utile pour améliorer la précision d’un modèle lorsque deux biens présentent une fonction comparable, qu’ils font appel à la même fonction de vulnérabilité, alors qu’un d’eux est doté d’un mécanisme pour réduire son exposition (comme une soupape antiretour). De même, cette fonctionnalité peut être utilisée pour étudier les avantages de l’introduction de PLPM avec une analyse comparative.
