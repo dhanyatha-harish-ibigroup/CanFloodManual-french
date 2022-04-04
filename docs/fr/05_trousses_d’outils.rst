@@ -131,7 +131,7 @@ Contrairement aux géométries par points, les inventaires présentant des géom
   
 **Raster Preparation** (Préparation de la trame)
 
-L’échantillonneur de trame s’attend à ce que toutes les couches de risque présentent les propriétés suivantes :
+L’échantillonneur de trame s’attend à ce que toutes les couches de risque présentent les propriétés suivantes:
 
   • le CRS de la couche correspond au CRS du projet;
   • les valeurs en pixels de couche correspondent aux fonctions de vulnérabilité (par exemple, les valeurs sont habituellement exprimées en mètres);
@@ -145,12 +145,23 @@ Pour aider à rendre les trames conformes à ces attentes, CanFlood comporte une
 
 *Tableau 5-2 : Outils de préparation de trame*
 
-
-
-
-
-
-
++------------------------+---------------------------+-----------------------+--------------------------------+
+| Tool Name              | Handle                    | Description                                            |
++========================+===========================+=======================+================================+
+| Downloader             | Allow dataProvider        | If the layer’s dataProvider is not ‘gdal’              | 
+|                        | conversion                | (i.e., web-layers), a local copy of the layer is       |
+|                        |                           | made to the user’s ‘TEMP’ directory.                   |
++------------------------+---------------------------+-----------------------+--------------------------------+
+| Re-projector           | Allow re-projection       | If the layer’s CRS does not match that of the project, | 
+|                        |                           | the ‘gdalwarp’ utility is used to re-project the layer.|
++------------------------+---------------------------+-----------------------+--------------------------------+
+| AOI clipper            | Clip to AOI               | This uses the ‘gdalwarp’ utility to clip the           |
+|                        |                           | raster by the AOI mask layer.                          |
++------------------------+---------------------------+-----------------------+--------------------------------+
+| Value Scaler           | ScaleFactor               | For ScaleFactors not equal to 1.0, this uses the Raster|
+|                        |                           | Calculator to scale the raster values by the passed    |
+|                        |                           | ScaleFactor (useful for simple unit conversions).      |
++------------------------+---------------------------+-----------------------+--------------------------------+
 
 
 Nom de l'outil	Fonction	Description
