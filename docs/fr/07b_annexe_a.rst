@@ -75,12 +75,12 @@ De preventionweb (https://risk.preventionweb.net/capraviewer/):
 
 Un résumé additionnel est présenté dans le document :
 
-  UNISDR. 2015. « Global Assessment Report on Disaster Risk Reduction 2015 - Annex
+  UNISDR. 2015. 'Global Assessment Report on Disaster Risk Reduction 2015 - Annex
 
-    1 - Global Risk Assessment. » Genève : Nations unies. https://www.preventionweb.net/english/hyogo/gar/2015/en/gar-pdf/Annex1-GAR_Global_Risk_Assessment_Data_methodology_and_usage.pdf.
+    1 - Global Risk Assessment.' Genève : Nations unies. https://www.preventionweb.net/english/hyogo/gar/2015/en/gar-pdf/Annex1-GAR_Global_Risk_Assessment_Data_methodology_and_usage.pdf.
 
 D’autres détails sont présentés dans le document :
 
-  Rudari, Roberto, and Francesco Silvestro. 2015. « IMPROVEMENT OF THE GLOBAL FLOOD MODEL FOR THE GAR 2015. » UNISDR.
+  Rudari, Roberto, and Francesco Silvestro. 2015. 'IMPROVEMENT OF THE GLOBAL FLOOD MODEL FOR THE GAR 2015.' UNISDR.
 
     `https://www.preventionweb.net/english/hyogo/gar/2015/.. <https://www.preventionweb.net/english/hyogo/gar/2015/en/bgdocs/risk-section/CIMA%20Foundation,%20Improvement%20of%20the%20Global%20Flood%20Model%20for%20the%20GAR15.pdf>`__.
