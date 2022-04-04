@@ -246,7 +246,26 @@ CanFlood fait la distinction entre des polygones de probabilité d'exposition co
 
 .. _Table5-4:
 
+
 *Tableau 5-4 : Sommaire du traitement des polygones de probabilité d'exposition conditionnelle.*
+
++---------+-----------------+------------------------------------------+----------------------+
+| Type    | Caractéristiques| Treatment                                | Example (Figure 5-5) |
++=========+=================+==========================================+======================+
+| trivial | Aucune          | Les défaillances ne sont pas prises en   | s/o                  |
+|         |                 | compte, aucune probabilité d'exposition  |                      |
+|         |                 | résolue (‘exlikes’) n’est requise.       |                      |
++---------+-----------------+------------------------------------------+----------------------+
+| simple  | Aucun           | L’outil ‘Conditional P’ joint la valeur  | f2, f3               |
+|         | chevauchement   | d’attribut prescrite de la               |                      |
+|         |                 | caractéristique polygonale sur chaque    |                      |
+|         |                 | bien pour créer des probabilités         |                      |
+|         |                 | d'exposition résolues (‘exlikes’).       |                      |
++---------+-----------------+------------------------------------------+----------------------+
+| complex | Avec            | Voir ci-dessous                          | f1                   |
+|         | chevauchement   |                                          |                      |
++---------+-----------------+------------------------------------------+----------------------+
+
 Type	Caractéristiques	Traitement	Exemple (Figure 5-5)
 Trivial	Aucune	Les défaillances ne sont pas prises en compte, aucune probabilité d'exposition résolue (‘exlikes’) n’est requise.	s/o
 Simple	Aucun chevauchement	L’outil ‘Conditional P’ joint la valeur d’attribut prescrite de la caractéristique polygonale sur chaque bien pour créer des probabilités d'exposition résolues (‘exlikes’).	F2, f3
