@@ -279,7 +279,7 @@ Après avoir exécuté le risque (L2), naviguez jusqu’à votre répertoire de 
 
 **Risk Plot** (Tracé du risque)
 
-Alors que les modules de risque comportent certaines courbes de risque de base (voir ci-dessus), CanFlood permet une personnalisation additionnelle des courbes au moyen de l'outil ‘Risk Plot’ dans la trousse d'outils ‘Results’. **Ouvrez la **trousse d'outils** ‘Results’  |visualimage1| **. Configurez la séance en sélectionnant un répertoire de travail, soit le fichier de commande, et en réglant ‘Plot Handling’ à ‘Save to file’ tel qu'indiqué :
+Alors que les modules de risque comportent certaines courbes de risque de base (voir ci-dessus), CanFlood permet une personnalisation additionnelle des courbes au moyen de l'outil ‘Risk Plot’ dans la trousse d'outils ‘Results’. **Ouvrez la trousse d'outils ‘Results’ ** |visualimage1|. Configurez la séance en sélectionnant un répertoire de travail, soit le fichier de commande, et en réglant ‘Plot Handling’ à ‘Save to file’ tel qu'indiqué :
 
 .. image:: /_static/tutorials_6_2_4_img_2.jpg
 
