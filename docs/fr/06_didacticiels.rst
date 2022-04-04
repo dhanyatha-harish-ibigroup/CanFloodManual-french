@@ -794,7 +794,7 @@ Cliquez sur **‘Get Exposure’**. Vous devriez voir 10 couches se charger sous
 
       o *0050_noFail_breach_3_pts*
 
-      o *0200_noFail_breach_16_pts (voir ci-dessous * |diamondimage| *)*
+      o *0200_noFail_breach_16_pts (voir ci-dessous* |diamondimage| *)*
 
       o *1000_noFail_breach_50_pts*
 
@@ -806,7 +806,7 @@ Cliquez sur **‘Get Exposure’**. Vous devriez voir 10 couches se charger sous
 
       o *tut6_dike_dikes_0050_noFail_expo*
 
-      o *tut6_dike_dikes_0200_noFail_expo (voir ci-dessous * |dotimage| *)*
+      o *tut6_dike_dikes_0200_noFail_expo (voir ci-dessous* |dotimage| *)*
 
       o *tut6_dike_dikes_1000_noFail_expo*
 
