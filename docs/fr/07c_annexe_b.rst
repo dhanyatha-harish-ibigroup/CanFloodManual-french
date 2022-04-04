@@ -1,4 +1,4 @@
-.. _annexe_b:
+.. _appendix_b:
 
 ===========
 Annexe B :
