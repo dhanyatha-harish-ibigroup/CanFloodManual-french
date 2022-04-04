@@ -360,6 +360,30 @@ L’outil de risque L1 de CanFlood permet une évaluation préliminaire du risqu
 .. _Table5-6:
 
 *Tableau 5-6 : Exigences en matière d'ensemble de modèle CanFlood pour le risque (L1).*
+
++------------------------+-------------------------+--------------------+---------+-----------------+
+| Name                   | Description             | Build Tool         | Code    | Reqd.           |
++========================+=========================+====================+=========+=================+
+| Control File           | Data file paths and     | Start Control File |         | yes             |
+|                        | parameters              |                    |         |                 |
++------------------------+-------------------------+--------------------+---------+-----------------+
+| Inventory              | Tabular asset inventory | Inventory Compiler | finv    | yes             |
+|                        | data                    |                    |         |                 |
++------------------------+-------------------------+--------------------+---------+-----------------+
+| Exposure               | WSL or %inundated       | Hazard Sampler     | expos   | yes             |
+|                        | exposure data           |                    |         |                 |
++------------------------+-------------------------+--------------------+---------+-----------------+
+| Event Probabilities    | Probability of each     | Event Variables    | evals   | yes             |
+|                        | hazard event            | of applicable      |         |                 |
++------------------------+-------------------------+--------------------+---------+-----------------+
+| Exposure Probabilities | Conditional probability | Conditional P      | exlikes | for failure     |
+|                        | of each asset realizing |                    |         |                 |
+|                        | the failure raster      |                    |         |                 |
++------------------------+-------------------------+--------------------+---------+-----------------+
+| Ground Elevations      | Elevation of ground at  | DTM Sampler        | gels    | for felv=ground |
+|                        | each asset              |                    |         |                 |
++------------------------+-------------------------+--------------------+---------+-----------------+
+
 Nom	Description	Outil de construction	Code	Nécessaire
 Fichier de commande	Chemins et paramètres du fichier de données	Start Control File		Oui
 Inventory	Données d'inventaire de bien sous forme de tableau	Inventory Compiler	Finv	Oui
@@ -375,6 +399,19 @@ Les extrants fournis par cet outil sont résumés dans le tableau suivant :
 .. _Table5-7:
 
 *Tableau 5-7 : Résumé du fichier de sortie du modèle de risque.*
+
++-------------------+-----------+----------------------------------------------------+
+| Output Name       | Code      | Description                                        |
++===================+===========+====================================================+
+| total results     | r_ttl     | table of sum of impacts (for all assets) per event |
+|                   |           | and expected value of all events (EAD)             |                  
++-------------------+-----------+----------------------------------------------------+
+| per-asset results | r_passet  | table of impacts per asset per event and expected  |
+|                   |           | value of all events per asset                      |
++-------------------+-----------+----------------------------------------------------+
+| risk curve        |           | risk curve plot of total impacts                   |
++-------------------+-----------+----------------------------------------------------+
+
 Code de sortie	Nom	Description
 Résultats totaux	r_ttl	tableau de la somme des impacts (pour tous les biens) par événement et valeur attendue de tous les événements (EAD)
 Résultats par bien	R_passet	tableau des impacts par bien par événement et valeur attendue de tous les événements par bien
