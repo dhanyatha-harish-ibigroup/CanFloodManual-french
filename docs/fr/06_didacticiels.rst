@@ -89,7 +89,7 @@ Allez à l’onglet ‘Hazard Sampler’. Cochez toutes les trames de risque dan
 
 **Event Variables** (Variables d'événement)
 
-Maintenant que les WSL ont été enregistrés, nous devons aviser CanFlood de la probabilité de réalisation de chacun de ces événements. Allez à l’onglet ‘Event Variables’. Précisez les valeurs exactes en ce qui concerne la probabilité de chaque événement (à partir des noms des événements) tel qu'indiqué :
+Maintenant que les WSL ont été enregistrés, nous devons aviser CanFlood de la probabilité de réalisation de chacun de ces événements. Allez à l’onglet ‘Event Variables’. Précisez les valeurs exactes en ce qui concerne la probabilité de chaque événement (à partir des noms des événements) tel qu'indiqué:
 
 .. image:: /_static/tutorials_6_1_2_img_5.jpg
 
@@ -99,7 +99,7 @@ Maintenant que les WSL ont été enregistrés, nous devons aviser CanFlood de la
 
 Allez à l’onglet ‘Validation’, **cochez ‘Risk (L1)’** et **cliquez ensuite sur ‘Validate’**. Cela aura pour effet de cocher tous les intrants contenus dans le fichier de commande et de régler la marque de validation ‘risk1’ à ‘True’ dans le fichier de commande. Sans cet indicateur, le modèle CanFlood sera voué à l’échec.
 
-Le fichier de commande devrait maintenant être créé complètement pour une analyse L1 et les intrants nécessaires devraient être réunis. Une fois terminé, le fichier de commande devrait ressembler à ce qui suit (mais sans vos répertoires) :
+Le fichier de commande devrait maintenant être créé complètement pour une analyse L1 et les intrants nécessaires devraient être réunis. Une fois terminé, le fichier de commande devrait ressembler à ce qui suit (mais sans vos répertoires):
 
 .. image:: /_static/tutorials_6_1_2_img_6.jpg
 
@@ -125,7 +125,7 @@ Aller à l’onglet ‘Risk (L1)’, Cochez les deux premières cases de la mani
 6.1.4. Afficher les résultats
 ===================
 
-Allez au répertoire de travail que vous avez sélectionné. Vous devriez vois 3 fichiers créés :
+Allez au répertoire de travail que vous avez sélectionné. Vous devriez vois 3 fichiers créés:
 
   • *risk1_run1_tut1a_passet.csv*: valeur attendue de l'inondation par bien;
   • *risk1_run1_tut1a_ttl.csv*: résultats totaux, valeur attendue de l'inondation totale par événement (et pour tous les événements);
@@ -137,11 +137,11 @@ Il n’existe pas de résultats non spatiaux qui sont directement générés par
 
 **Join Geometry** (Géométrie conjointe)
 
-Ouvrez la trousse d'outils de résultats en **cliquant sur le **bouton ‘Results’** |visualimage2| **. Les modèles CanFlood sont conçus pour fonctionner indépendamment de l’IPA du QGIS. Par conséquent, si vous souhaitez afficher les résultats dans un format spatial, d’autres mesures sont nécessaires pour fixer de nouveau les résultats du modèle tabulaire à la géométrie vectorielle de l'inventaire des biens (‘finv’). Pour ce faire, allez à l’onglet ‘Join Geo’ et sélectionnez la couche d'inventaire des biens (‘finv’). Sélectionnez ensuite ‘r_passet’ sous ‘results parameter to load’ afin d’inscrire dans le champ ci-dessous un chemin de fichiers menant à votre fichier des résultats par bien (si le chemin de fichiers n’apparaît pas automatiquement, essayez de modifier les menus déroulants ‘finv’ et ‘parameter’. Ou encore, inscrivez le chemin de fichiers manuellement). Enfin, sélectionnez ‘Results Layer Style’ et ‘Field re-label option’ tel qu'indiqué :
+Ouvrez la trousse d'outils de résultats en **cliquant sur le bouton ‘Results’** |visualimage2| . Les modèles CanFlood sont conçus pour fonctionner indépendamment de l’IPA du QGIS. Par conséquent, si vous souhaitez afficher les résultats dans un format spatial, d’autres mesures sont nécessaires pour fixer de nouveau les résultats du modèle tabulaire à la géométrie vectorielle de l'inventaire des biens (‘finv’). Pour ce faire, allez à l’onglet ‘Join Geo’ et sélectionnez la couche d'inventaire des biens (‘finv’). Sélectionnez ensuite ‘r_passet’ sous ‘results parameter to load’ afin d’inscrire dans le champ ci-dessous un chemin de fichiers menant à votre fichier des résultats par bien (si le chemin de fichiers n’apparaît pas automatiquement, essayez de modifier les menus déroulants ‘finv’ et ‘parameter’. Ou encore, inscrivez le chemin de fichiers manuellement). Enfin, sélectionnez ‘Results Layer Style’ et ‘Field re-label option’ tel qu'indiqué:
 
 .. image:: /_static/tutorials_6_1_4_img_2.jpg
 
-**Cliquez sur ‘Join’**. Une nouvelle couche ‘djoin’ temporaire devrait avoir été chargée sur le canevas de carte et le style sélectionné appliqué. Déplacez cette couche au haut du panneau de vos couches et fermez la couche ‘finv’ pour voir la nouvelle couche ‘djoin’. La couche ‘djoin’ devrait être une couche de points, alors que la taille de chaque point varie en fonction de la valeur attendue d'inondation (c'est-à-dire le nombre moyen d’inondations par année) semblable à ce qui suit :
+**Cliquez sur ‘Join’**. Une nouvelle couche ‘djoin’ temporaire devrait avoir été chargée sur le canevas de carte et le style sélectionné appliqué. Déplacez cette couche au haut du panneau de vos couches et fermez la couche ‘finv’ pour voir la nouvelle couche ‘djoin’. La couche ‘djoin’ devrait être une couche de points, alors que la taille de chaque point varie en fonction de la valeur attendue d'inondation (c'est-à-dire le nombre moyen d’inondations par année) semblable à ce qui suit:
 
 .. image:: /_static/tutorials_6_1_4_img_3.jpg
 
@@ -151,7 +151,7 @@ Ouvrez le tableau des attributs pour la couche ‘djoin’ (F6). Vous devriez vo
 
 Notez les six champs d’impact (entourés de rouge ci-dessous) dont les noms ont été convertis à ‘’ari_probability’ et dont les valeurs de champ présentent les résultats de l'exposition binaire (0=non exposé; 1=exposé). Vous devrez sauvegarder cette couche si vous souhaitez qu’elle soit disponible lors d’une autre séance du QGIS (Layers Pane > Clic droit sur la couche > Save As…). Félicitations pour votre première exécution CanFlood!
 
-.. |visualimage| image:: /_static/visual_image.jpg
+.. |visualimage2| image:: /_static/visual_image.jpg
    :align: middle
    :width: 26
 
