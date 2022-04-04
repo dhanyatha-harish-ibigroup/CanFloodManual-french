@@ -315,7 +315,7 @@ Les utilisateurs devraient terminer premièrement les didacticiels 1 et 2a. Le d
 
 Cette simplification en utilisant ces deux couches facilite la détermination de plusieurs probabilités de bris, mais dans les cas où un bris (ou une combinaison de bris) présenterait le même WSL (:ref:`Section5.1.5 <Section5.1.5>`’s ‘complex conditionals’). Assurez-vous que ces couches sont chargées dans le même projet QGIS que celui qu’on a utilisé pour le didacticiel 2a.
 
-Pour mieux comprendre la couche ‘failure polygons’, appliquons le style ‘red fill transparent’ de CanFlood. Commençons en chargeant ce modèle de style dans votre profil avec l'outil ‘Add Styles’ (Plugins > CanFlood > Add Styles). Appliquez-le ensuite au moyen du panneau des styles de couches (F7). Enfin, ajoutez une seule étiquette pour ‘p_fail’ et déplacez la couche tout juste sous la couche de points de l'inventaire de biens (‘finv’) sur le panneau des couches. Votre canevas devrait ressembler à ce qui suit :
+Pour mieux comprendre la couche ‘failure polygons’, appliquons le style ‘red fill transparent’ de CanFlood. Commençons en chargeant ce modèle de style dans votre profil avec l'outil ‘Add Styles’ (Plugins > CanFlood > Add Styles). Appliquez-le ensuite au moyen du panneau des styles de couches (F7). Enfin, ajoutez une seule étiquette pour ‘p_fail’ et déplacez la couche tout juste sous la couche de points de l'inventaire de biens (‘finv’) sur le panneau des couches. Votre canevas devrait ressembler à ce qui suit:
 
 .. image:: /_static/tutorials_6_3_img_1.jpg
 
@@ -330,11 +330,11 @@ Allez à l’onglet ‘Conditional P’ pour résoudre la question des polygones
 
 .. image:: /_static/tutorials_6_3_1_img_1.jpg
 
-Un fichier de données de probabilités d'exposition résolues (‘exlikes’) devrait avoir été créé dans votre répertoire de travail et ce fichier devrait présenter des entrées comparables à ceci :
+Un fichier de données de probabilités d'exposition résolues (‘exlikes’) devrait avoir été créé dans votre répertoire de travail et ce fichier devrait présenter des entrées comparables à ceci:
 
 .. image:: /_static/tutorials_6_3_1_img_2.jpg
 
-Deux tracés sommaires non spatiaux de ces données devraient également avoir été créés dans votre répertoire de travail, le plus utile pour ce modèle particulier étant l’histogramme :
+Deux tracés sommaires non spatiaux de ces données devraient également avoir été créés dans votre répertoire de travail, le plus utile pour ce modèle particulier étant l’histogramme:
 
 .. image:: /_static/tutorials_6_3_1_img_3.jpg
 
@@ -354,14 +354,14 @@ Allez à l’onglet ‘Impacts (L2)’. Cochez la case ‘Run Risk (L2) upon com
 6.3.3. Afficher les résultats
 ===================
 
-Pour mieux comprendre l’influence de l'intégration d’un bris de levée, on fera la démonstration, dans cette section, de la façon de gérer un tracé montrant le risque total et de la partie de ce risque total qui en résulte lorsqu’on présume qu’il n’y a pas de bris. Ouvrez la trousse d'outils ‘Results’ et configurez votre séance en sélectionnant un répertoire de travail et le même fichier de commande que celui que vous avez utilisé ci-dessus. Allez maintenant à l’onglet ‘Risk Plot’, assurez-vous que les deux commandes de tracé sont cochées et **cliquez ensuite sur ‘Plot Fail Split**. Cela devrait générer deux formulations de tracé de risques, incluant la figure suivante :
+Pour mieux comprendre l’influence de l'intégration d’un bris de levée, on fera la démonstration, dans cette section, de la façon de gérer un tracé montrant le risque total et de la partie de ce risque total qui en résulte lorsqu’on présume qu’il n’y a pas de bris. Ouvrez la trousse d'outils ‘Results’ et configurez votre séance en sélectionnant un répertoire de travail et le même fichier de commande que celui que vous avez utilisé ci-dessus. Allez maintenant à l’onglet ‘Risk Plot’, assurez-vous que les deux commandes de tracé sont cochées et **cliquez ensuite sur ‘Plot Fail Split’**. Cela devrait générer deux formulations de tracé de risques, incluant la figure suivante :
 
 .. image:: /_static/tutorials_6_3_3_img_1.jpg
 
 Dans ce tracé, la ligne rouge représente la contribution au risque sans les événements de bris d’accompagnement, qui devraient être presque identiques aux résultats du didacticiel 2a, alors qu’une deuxième ligne montre les résultats totaux (ou encore, on peut utiliser l'outil ‘Compare’ pour générer un tracé de comparaison entre les deux didacticiels). La zone entre ces deux lignes montre la contribution au risque lorsqu’on intègre le bris d’une levée au modèle.
 
 ************************************************
-6,4. Didacticiel 2c: Risque (L2) avec bris complexe.
+6.4. Didacticiel 2c: Risque (L2) avec bris complexe.
 ************************************************
 
 On recommande aux utilisateurs de terminer premièrement le didacticiel 2b. Le didacticiel 2c fait appel aux mêmes données d’intrant que le 2b, mais on élabore l'analyse pour démontrer que l'intégration d’un bris de levée plus complexe avec deux événements de bris d’accompagnement dans le modèle.
