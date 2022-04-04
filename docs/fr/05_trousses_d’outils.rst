@@ -426,6 +426,28 @@ L’outil *Impacts (L2)* de CanFlood est conçu afin de procéder à une évalua
 
 
 *Tableau 5-8 : Exigences de l'ensemble du modèle d’impacts (L2).*
+
++------------------------+-------------------------+--------------------+--------+-------------+
+| Name                   | Description             | Build Tool         | Code   | Reqd.       |
++========================+=========================+====================+========+=============+
+| Control File           | Data file paths and     | Start Control File |        | yes         |
+|                        | parameters              |                    |        |             |
++------------------------+-------------------------+--------------------+--------+-------------+
+| Inventory              | Tabular asset inventory | Inventory Compiler | finv   | yes         |
+|                        | data                    |                    |        |             |
++------------------------+-------------------------+--------------------+--------+-------------+
+| Exposure               | WSL or %inundated       | Hazard Sampler     | expos  | yes         |
+|                        | exposure data           |                    |        |             |
++------------------------+-------------------------+--------------------+--------+-------------+
+| Ground Elevations      | Elevation of ground at  | DTM Sampler        | gels   | for         |
+|                        | each asset              |                    |        | felv=ground |
++------------------------+-------------------------+--------------------+--------+-------------+
+| Vulnerability Function | Collection of functions | Vulnerability      | curves | yes         |
+| Set                    | relating exposure to    | Function Library   |        |             |
+|                        | impact                  |                    |        |             |
++------------------------+-------------------------+--------------------+--------+-------------+
+
+
 Nom 	Description 	Outil de construction	Code	Nécessaire
 Fichier de commande	Chemins et paramètres du fichier de données	Start Control File		Oui
 Inventory	Données d'inventaire de bien sous forme de tableau	Inventory Compiler	Finv	oui
@@ -436,6 +458,26 @@ Ensemble de fonctions de vulnérabilité	Collection de fonctions concernant l’
 Les extrants des impacts (L2) sont résumés dans le tableau suivant, où seul l’extrant ‘dmgs’ est exigé par le modèle de risque (L2) :
 
 *Tableau 5-9 : Extrants des impacts (L2).*
+
++---------------------+-----------+----------------------------------------------------+
+| Output Name         | Code      | Description                                        |
++=====================+===========+====================================================+
+| total impacts       | dmgs      | total impacts calculated for each asset            |
++---------------------+-----------+----------------------------------------------------+
+| expanded            | dmgs_expnd| complete impacts calculated on each nested         |
+| component impacts   |           | function of each asset (see below)                 |                  
++---------------------+-----------+----------------------------------------------------+
+| impacts calculation | bdmg_smry | workbook summarizing components of the             |
+| summary             |           | impact calculation (see below)                     |
++---------------------+-----------+----------------------------------------------------+
+| depths              | depths_df | depth values calculated for each asset             |
++---------------------+-----------+----------------------------------------------------+
+| impact histogram    |           | summary plot of total impact values per-asset      |
+| summary             |           |                                                    |
++---------------------+-----------+----------------------------------------------------+
+| impact box plot     |           | summary plot of total impact values per-asset      |
++---------------------+-----------+----------------------------------------------------+
+
 Nom de l’extrant	Code 	Description
 Impacts totaux	dmgs	Les impacts totaux sont calculés pour chaque bien
 Impacts développés des composants	dmgs_expnd	Impacts complets calculés pour chaque fonction imbriquée de chaque bien (voir ci-dessous)
