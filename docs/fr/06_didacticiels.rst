@@ -239,7 +239,7 @@ Cela démontre que le fichier de données ‘dmgs’ est absent du modèle de ri
 6.2.3. Exécuter le modèle
 ====================
 
-Ouvrez le dialogue ‘Model’ |runimage|. Configurez l’onglet 'Setup’ de la manière décrite ci-dessous en choisissant vos propres chemins et votre fichier de commande. Assurez-vous également que le répertoire des extrants est un sous-répertoire de votre répertoire de travail précédent (Certains outils ‘Results’ fonctionnent mieux lorsque les fichiers de données des extrants du modèle font partie de la même arborescence des fichiers que le fichier de commande) :
+Ouvrez le dialogue ‘Model’ |runimage|. Configurez l’onglet 'Setup’ de la manière décrite ci-dessous en choisissant vos propres chemins et votre fichier de commande. Assurez-vous également que le répertoire des extrants est un sous-répertoire de votre répertoire de travail précédent (Certains outils ‘Results’ fonctionnent mieux lorsque les fichiers de données des extrants du modèle font partie de la même arborescence des fichiers que le fichier de commande):
 
 .. image:: /_static/tutorials_6_2_3_img_1.jpg
 
