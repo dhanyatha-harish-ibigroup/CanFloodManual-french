@@ -335,35 +335,6 @@ Afin de faciliter la simulation des lots pour les utilisateurs avancés, tous le
 Le tableau suivant renferme un résumé des paramètres pertinents pour la trousse d'outils de modèle CanFlood qu’il est possible d’indiquer dans le fichier de commande.
 
 *Résumé des paramètres de fichier de commande CanFlood*
-Nom 	Option	Attente type	Valeur par défaut	Description
-Nom		Str		Nom du scénario/modèle exécuté
-cid				Colonne d’index pour les 3 ensembles de données inventoriés (finv expos gels)
-Prec		Int		Précision flottante pour les calculs
-Ground_water		Bool		Marque devant inclure les profondeurs négatives dans l'analyse
-Felv		Str		Plan horizontal de référence ou terrain
-Event_probs		Str	ari	Format de probabilités d'événement (dans le fichier de données evals).
-	Aep			Probabilité d'événement dans le fichier aeps exprimé sous forme de probabilités de dépassement annuel
-	Ari			Exprimé sous forme d’intervalles de récurrence annuelle
-Itail		Aucune	extrapoler	Gestion d'événement à probabilité zéro
-	Flat			Événement à probabilité zéro égal aux impacts les plus extrêmes dans les séries passées
-	Extrapoler			Régler l'événement à probabilité zéro en extrapolant à partir de l’impact le plus extrême (interp1d)
-	Aucune			Ne pas extrapoler (non recommandé)
-	Flotter			Utiliser la valeur passée en tant que valeur d’impact de probabilité zéro.
-rtail		Aucune	0,5	Traitement d'événement à zéro impact
-	Extrapoler			Régler l'événement à zéro impact en extrapolant à partir de l’impact le moins extrême.
-	Aucune			Non-exécution d’un événement à zéro impact (non recommandé).
-	Flat			Reproduit l’AEP minimal en tant qu’événement à zéro dommage (NON UTILISÉ)
-	Flotter			Utiliser la valeur passée comme valeur AEP à zéro impact.
-Drop_tails		Bool	faux	Extrapolation d’EAD : à savoir si on doit enlever les valeurs extrapolées avant d’écrire les résultats par bien.
-intégrer		Str		Méthode d'intégration NumPy qu’on doit appliquer (trapz par défaut)
-As_inun		Bool		Marque à savoir si on doit traiter les expositions en fonction du % d'inondation.
-Event_rels		Str		Hypothèse permettant de calculer la valeur attendue pour les événements complexes.
-	Max			Valeur maximale attendue des impacts par bien à partir des événements dupliqués Dommage résolu = dommage maximal sans défaillance * prob de défaillance) valeur par défaut jusqu’au 2020-12-30
-	mutEx			Tenir pour acquis que chaque événement est mutuellement exclusif (un seul peut survenir) (limite inférieure)
-	Indep			Tenir pour acquis que chaque événement est indépendant (la défaillance d’un n’influence pas l’autre) (limite supérieure)
-Impact_units		Str		Valeur d'étiquetage de l’axe des impacts avec (généralement réglé par Dmg2)
-Apply_miti		Bool		Appliquer ou non les algorithmes d'atténuation.
-Déviation de courbe		str		pour les bibliothèques de fonctions de dommages L1, préciser la déviation (facultatif).
 
 .. csv-table:: 
    :file: /tables/52_controlFileDesc.csv
@@ -371,35 +342,6 @@ Déviation de courbe		str		pour les bibliothèques de fonctions de dommages L1, 
    :header-rows: 1
 
 *Résumé des fichiers de données et des tracés des fichiers de commande de CanFlood*
-Section 	Nom	Attente type	Description
-Dmg_fps	Courbes	Str	Pour le chemin de fichier L2 vers la bibliothèque de fonctions de dommage .xls
-	Finv	str	
-	Expos	Str	
-	Gels	Str	
-Risk_fps	Dmgs	Str	Chemin de fichier des résultats des données sur les dommages (valeur par défaut S/O)
-	Exlikes	Str	Chemin de fichier de données de probabilité d'exposition secondaire (valeur par défaut S/O)
-	Evals	Str	Chemin de fichier de données de probabilité d'événement (valeur par défaut S/O)
-validation	Risk1	Bool	
-	Dmg2	Bool	
-	Risk2	Bool	Marque de validation Risk2 (Faux est la valeur par défaut)
-	Risk3	Bool	
-Results_fps	Attrimat02	Str	fp de matrice d'attribution lvl2 (modèle après dommage)
-	Attrimat03	Str	fp de matrice d'attribution lvl2 (modèle après risque)
-	R_passet	Str	résultats par_bien à partir du modèle risk2
-	R_ttl	Str	résultats totaux des modèles de risque
-	Eventypes	Str	df des aep noFail et rEventName
-Tracé	Couleur	Str	
-	Style de ligne	Srt	
-	Largeur de ligne	Flotter	
-	Alpha	Flotter	
-	Marqueur	Str	
-	Taille du marqueur	Flotter	
-	Fillstyle	Str	
-	Impactfmt_str	str	Formateur python qu’on doit utiliser pour formater les valeurs des résultats des impacts
-
-
-
-
 
 .. csv-table:: 
    :file: /tables/52b_controlFileDesc_filepaths.csv
