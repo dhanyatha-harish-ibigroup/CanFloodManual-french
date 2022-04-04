@@ -239,7 +239,7 @@ Cela démontre que le fichier de données ‘dmgs’ est absent du modèle de ri
 6.2.3. Exécuter le modèle
 ====================
 
-Ouvrez le dialogue ‘Model’ |runimage|. Configurez l’onglet 'Setup’ de la manière décrite ci-dessous en choisissant vos propres chemins et votre fichier de commande. Assurez-vous également que le répertoire des extrants est un sous-répertoire de votre répertoire de travail précédent (Certains outils ‘Results’ fonctionnent mieux lorsque les fichiers de données des extrants du modèle font partie de la même arborescence des fichiers que le fichier de commande):
+Ouvrez le dialogue ‘Model’ |runimage|. Configurez l’onglet ‘Setup’ de la manière décrite ci-dessous en choisissant vos propres chemins et votre fichier de commande. Assurez-vous également que le répertoire des extrants est un sous-répertoire de votre répertoire de travail précédent (Certains outils ‘Results’ fonctionnent mieux lorsque les fichiers de données des extrants du modèle font partie de la même arborescence des fichiers que le fichier de commande):
 
 .. image:: /_static/tutorials_6_2_3_img_1.jpg
 
@@ -396,7 +396,7 @@ Pour explorer l’influence du paramètre ‘event_rels’, ouvrez le fichier de
 6.4.3. Afficher les résultats
 ===================
 
-Après avoir exécuté le modèle ‘Risk (L2) pour les fichiers de commande ‘event_rels=mutEx’ et ‘event_rels=max’ , deux séries de fichiers d’extrants comparables devraient avoir été produites dans les deux répertoires d’extrants séparés qu’on a précisés lors de la configuration du modèle. Pour visualiser la différence entre ceux deux configurations du modèle, **ouvrez la trousse d'outils ‘Results’** et sélectionnez un répertoire de travail, ainsi que le fichier de commande ‘event_rels=mutEx’ original comme étant le fichier de commande principal sur l’onglet 'Setup’. (Le fichier de commande indiqué sur l’onglet ‘Setup’ sera utilisé pour les styles de tracés communs (par exemple). Avant de générer des fichiers de comparaison, configurez le style de tracé en ouvrant le même fichier de commande principal et en modifiant les paramètres ‘[plotting]’ suivants :
+Après avoir exécuté le modèle ‘Risk (L2) pour les fichiers de commande ‘event_rels=mutEx’ et ‘event_rels=max’ , deux séries de fichiers d’extrants comparables devraient avoir été produites dans les deux répertoires d’extrants séparés qu’on a précisés lors de la configuration du modèle. Pour visualiser la différence entre ceux deux configurations du modèle, **ouvrez la trousse d'outils ‘Results’** et sélectionnez un répertoire de travail, ainsi que le fichier de commande ‘event_rels=mutEx’ original comme étant le fichier de commande principal sur l’onglet ‘Setup’. (Le fichier de commande indiqué sur l’onglet ‘Setup’ sera utilisé pour les styles de tracés communs (par exemple). Avant de générer des fichiers de comparaison, configurez le style de tracé en ouvrant le même fichier de commande principal et en modifiant les paramètres ‘[plotting]’ suivants :
 
   • ‘color = red’
   • ‘linestyle = solid’
@@ -456,7 +456,7 @@ Allez à l’onglet ‘Impacts (L2)’ et assurez-vous que TOUTES les options �
 
 Cela montre les résumés de données pour les quatre trames d'événement, les valeurs d’impact totales (en rouge) et certaines informations sur les modèles clés.
 
-Pour comprendre l'effet des paramètres d'atténuation, ouvrez le fichier de commande, modifiez le paramètre ‘apply_miti’ à ‘False’, modifiez le paramètre ‘name’ à ‘tut2d_noMiti’, le paramètre ‘color’ à ‘red’, et sauvegardez-le sous un nom différent. Sur l’onglet 'Setup’ pointez ce nouveau fichier de commande et remplacez ‘Run Tag’ par ‘noMiti’. Revenez ensuite à l’onglet ‘Impacts (L2)’ et **cliquez de nouveau sur ‘Run dmg2’.** Vous devriez voir une autre boîte apparaître dans votre répertoire de travail:
+Pour comprendre l'effet des paramètres d'atténuation, ouvrez le fichier de commande, modifiez le paramètre ‘apply_miti’ à ‘False’, modifiez le paramètre ‘name’ à ‘tut2d_noMiti’, le paramètre ‘color’ à ‘red’, et sauvegardez-le sous un nom différent. Sur l’onglet ‘Setup’ pointez ce nouveau fichier de commande et remplacez ‘Run Tag’ par ‘noMiti’. Revenez ensuite à l’onglet ‘Impacts (L2)’ et **cliquez de nouveau sur ‘Run dmg2’.** Vous devriez voir une autre boîte apparaître dans votre répertoire de travail:
 
 .. image:: /_static/tutorials_6_5_2_img_2.jpg
 
@@ -567,7 +567,7 @@ Déplacez la couche d'inventaire du polygone (‘finv’) sur le dessus, appliqu
 
 **Setup** (Configuration)
 
-Lancez la trousse d'outils ‘Build’ de CanFlood et allez à l’onglet 'Setup’. Réglez le champ ‘Precision’ à ‘6’ (ce qui est important pour l'analyse du pourcentage d'inondation, qui fonctionne par petites fractions) et terminez ensuite la configuration type de la manière décrite dans le didacticiel 1a.
+Lancez la trousse d'outils ‘Build’ de CanFlood et allez à l’onglet ‘Setup’. Réglez le champ ‘Precision’ à ‘6’ (ce qui est important pour l'analyse du pourcentage d'inondation, qui fonctionne par petites fractions) et terminez ensuite la configuration type de la manière décrite dans le didacticiel 1a.
 
 **Inventory** (Inventaire)
 
