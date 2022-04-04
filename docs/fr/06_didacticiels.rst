@@ -9,7 +9,7 @@ Cette section renferme quelques didacticiels permettant à l'utilisateur de comm
 .. _Section6.1:
 
 ***************************
-6,1. Didacticiel 1a: Risque (L1)
+6.1. Didacticiel 1a: Risque (L1)
 ***************************
 
 Ce didacticiel guide l'utilisateur en procédant à l'application simple de la modélisation de risque dans CanFlood, ce qu’on qualifie d'analyse de niveau 1 (L1), alors que seule l'exposition binaire est calculée. Cette analyse ‘exposée ou non exposée’ peut être utile afin de procéder à l'analyse préliminaire lorsqu’on a suffisamment d'information pour modéliser la vulnérabilité des objets plus complexes.
