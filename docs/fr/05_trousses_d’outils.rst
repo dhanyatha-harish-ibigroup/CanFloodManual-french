@@ -615,7 +615,7 @@ L’algorithme suivant est utilisé dans les modèles ‘Risk (L1)’ et ‘Risk
 
   1. Réunir une série d’AEP et d’impacts totaux pour chaque événement;
   2. Extrapoler cette série avec les pseudos (‘rtail’ et ‘ltail’);
-  3. Utiliser la méthode d'intégration NumPy <https://docs.scipy.org/doc/scipy/reference/integrate.html>`__ prescrite par l'utilisateur pour calculer la zone sous la série.
+  3. Utiliser la méthode `d'intégration NumPy <https://docs.scipy.org/doc/scipy/reference/integrate.html>`__ prescrite par l'utilisateur pour calculer la zone sous la série.
 
 Le même algorithme est utilisé pour calculer la valeur attendue totale de tous les biens et pour connaître la valeur attendue de chaque bien à titre individuel (si ‘res_per_asset’=True).
 
