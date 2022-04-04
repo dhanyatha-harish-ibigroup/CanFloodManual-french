@@ -707,6 +707,10 @@ Vous devrez charger une couche à la fois et le message ‘Select Transformation
 
 .. image:: /_static/tutorials_6_10_1_img_5.jpg
 
+.. |addConnectionsImage| image:: /_static/add_connections_image.jpg
+   :align: middle
+   :width: 22
+
 6.10.2. Créer le modèle
 =======================
 
